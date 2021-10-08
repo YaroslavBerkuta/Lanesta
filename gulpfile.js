@@ -1,4 +1,4 @@
-const project_folder = require("path").basename(__dirname),
+const project_folder = "docs",
   source_folder = "#src";
 
 const fs = require("fs");
@@ -39,6 +39,9 @@ const { src, dest, registry } = require("gulp"),
   rename = require("gulp-rename"),
   unglify = require("gulp-uglify-es").default,
   imgmin = require("gulp-imagemin"),
+  webP = require("gulp-webp"),
+  webpHtml = require("gulp-webp-html"),
+  webpcss = require("gulp-webpcss"),
   sprite = require("gulp-svg-sprite"),
   ttf2woff = require("gulp-ttf2woff"),
   ttf2woff2 = require("gulp-ttf2woff2");
@@ -56,6 +59,7 @@ function browserSync(params) {
 function html() {
   return src(path.src.html)
     .pipe(fileinclude())
+    .pipe(webpHtml())
     .pipe(dest(path.build.html))
     .pipe(browsersync.stream());
 }
@@ -72,6 +76,12 @@ function css() {
       autoprefix({
         overrideBrowserslist: ["last 5 versions"],
         cascade: true,
+      })
+    )
+    .pipe(
+      webpcss({
+        webpClass: ".webp",
+        noWebpClass: ".no-webp",
       })
     )
     .pipe(dest(path.build.css))
@@ -101,6 +111,13 @@ function js() {
 
 function img() {
   return src(path.src.img)
+    .pipe(
+      webP({
+        quality: 70,
+      })
+    )
+    .pipe(dest(path.build.img))
+    .pipe(src(path.src.img))
     .pipe(
       imgmin({
         progressive: true,
