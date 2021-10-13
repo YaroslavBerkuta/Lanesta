@@ -438,8 +438,9 @@ section {
 
 .blog__item {
     max-width: 470px;
+    margin-bottom: 50px;
 
-    &:not(:last-child) {
+    &:not(:nth-child(3n)) {
         margin-right: 125px;
     }
 
@@ -904,9 +905,28 @@ footer {
 
 .model__big {
     max-width: 670px;
+    position: relative;
 
     img {
         width: 100%;
+    }
+}
+
+.video__btn {
+    position: absolute;
+    bottom: 24px;
+    right: 24px;
+    width: 48px;
+    height: 48px;
+    background: rgba(28, 28, 28, 0.3);
+    backdrop-filter: blur(13.5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 18px;
+        height: 24px;
     }
 }
 
@@ -1003,4 +1023,103 @@ footer {
 
 .model__img {
     flex: 0 0 235px;
+}
+
+.partnership__wrapper {
+    background: rgba(28, 28, 28, 0.5);
+    backdrop-filter: blur(9px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 540px;
+    margin: 0 auto;
+    padding: 115px 0 75px 0;
+    flex-direction: column;
+
+    h3 {
+        font-size: 20px;
+        line-height: 17px;
+        color: #D8D8D8;
+    }
+
+    p {
+        margin: 20px 0;
+        font-size: 20px;
+        line-height: 17px;
+        color: #ffff;
+    }
+
+    a {
+        font-style: italic;
+        font-size: 20px;
+        line-height: 17px;
+        color: #ffff;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 353px;
+
+        textarea {
+            width: 100%;
+            color: white;
+            background-color: transparent;
+            border: none;
+            padding: 0px 0px 7px 0;
+            border-bottom: 1px solid white;
+            outline: none;
+
+            &::placeholder {
+                font-size: 18px;
+                line-height: 22px;
+                letter-spacing: 0.005em;
+                text-transform: uppercase;
+                color: #FFFFFF;
+            }
+        }
+
+        input {
+            width: 100%;
+            color: white;
+            padding: 0px 0px 7px 0;
+            border: none;
+            border-bottom: 1px solid white;
+            background-color: transparent;
+            margin-bottom: 48px;
+            outline: none;
+
+            &::placeholder {
+                font-size: 18px;
+                line-height: 22px;
+                letter-spacing: 0.005em;
+                text-transform: uppercase;
+                color: #FFFFFF;
+            }
+        }
+
+        p {
+            margin-top: 32px;
+            margin-bottom: 80px;
+            font-size: 14px;
+            line-height: 17px;
+            color: #C4C4C4;
+        }
+
+        button {
+            border: none;
+            cursor: pointer;
+            border: 1px solid #D8D8D8;
+            padding: 6px;
+            width: 69px;
+            font-size: 18px;
+            line-height: 22px;
+            background-color: transparent;
+            letter-spacing: 0.005em;
+            text-transform: uppercase;
+            color: #D8D8D8;
+            margin-bottom: 100px;
+        }
+    }
 }

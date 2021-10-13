@@ -709,9 +709,10 @@ section {
 
 .blog__item {
   max-width: 470px;
+  margin-bottom: 50px;
 }
 
-.blog__item:not(:last-child) {
+.blog__item:not(:nth-child(3n)) {
   margin-right: 125px;
 }
 
@@ -1263,10 +1264,36 @@ footer .container {
 
 .model__big {
   max-width: 670px;
+  position: relative;
 }
 
 .model__big img {
   width: 100%;
+}
+
+.video__btn {
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
+  width: 48px;
+  height: 48px;
+  background: rgba(28, 28, 28, 0.3);
+  -webkit-backdrop-filter: blur(13.5px);
+          backdrop-filter: blur(13.5px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.video__btn img {
+  width: 18px;
+  height: 24px;
 }
 
 .model__descriptions {
@@ -1368,6 +1395,186 @@ footer .container {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 235px;
           flex: 0 0 235px;
+}
+
+.partnership__wrapper {
+  background: rgba(28, 28, 28, 0.5);
+  -webkit-backdrop-filter: blur(9px);
+          backdrop-filter: blur(9px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 540px;
+  margin: 0 auto;
+  padding: 115px 0 75px 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.partnership__wrapper h3 {
+  font-size: 20px;
+  line-height: 17px;
+  color: #D8D8D8;
+}
+
+.partnership__wrapper p {
+  margin: 20px 0;
+  font-size: 20px;
+  line-height: 17px;
+  color: #ffff;
+}
+
+.partnership__wrapper a {
+  font-style: italic;
+  font-size: 20px;
+  line-height: 17px;
+  color: #ffff;
+}
+
+.partnership__wrapper form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 353px;
+}
+
+.partnership__wrapper form textarea {
+  width: 100%;
+  color: white;
+  background-color: transparent;
+  border: none;
+  padding: 0px 0px 7px 0;
+  border-bottom: 1px solid white;
+  outline: none;
+}
+
+.partnership__wrapper form textarea::-webkit-input-placeholder {
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.005em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.partnership__wrapper form textarea::-moz-placeholder {
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.005em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.partnership__wrapper form textarea:-ms-input-placeholder {
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.005em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.partnership__wrapper form textarea::-ms-input-placeholder {
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.005em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.partnership__wrapper form textarea::placeholder {
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.005em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.partnership__wrapper form input {
+  width: 100%;
+  color: white;
+  padding: 0px 0px 7px 0;
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+  margin-bottom: 48px;
+  outline: none;
+}
+
+.partnership__wrapper form input::-webkit-input-placeholder {
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.005em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.partnership__wrapper form input::-moz-placeholder {
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.005em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.partnership__wrapper form input:-ms-input-placeholder {
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.005em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.partnership__wrapper form input::-ms-input-placeholder {
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.005em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.partnership__wrapper form input::placeholder {
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.005em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.partnership__wrapper form p {
+  margin-top: 32px;
+  margin-bottom: 80px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #C4C4C4;
+}
+
+.partnership__wrapper form button {
+  border: none;
+  cursor: pointer;
+  border: 1px solid #D8D8D8;
+  padding: 6px;
+  width: 69px;
+  font-size: 18px;
+  line-height: 22px;
+  background-color: transparent;
+  letter-spacing: 0.005em;
+  text-transform: uppercase;
+  color: #D8D8D8;
+  margin-bottom: 100px;
 }
 
 .webp .partnership__preview { background: url(../img/partnershipBg.webp) center center/cover no-repeat; }

@@ -14,8 +14,7 @@ const burger = document.querySelector(".burger")
 const menu = document.querySelector('.header__menu')
 const langMenu = document.querySelector('.header__lang')
 const langList = document.querySelector('.active__lang ul')
-const modelSmallImg = document.querySelectorAll(".model__img img")
-const bigImg = document.querySelector(".model__big img")
+
 
 
 burger.addEventListener('click',()=>{
@@ -33,9 +32,7 @@ langMenu.addEventListener('click',()=>{
     langList.classList.toggle('visble__lang')
 })
 
-if(main.contains(pagepiling)){
-    body.classList.add("body-overflow")
-}
+main.contains(pagepiling) && body.classList.add("body-overflow")
 
 const swiper = new Swiper('.model__slider', {
     wrapperClass: "model__wrapper",
@@ -43,9 +40,3 @@ const swiper = new Swiper('.model__slider', {
     slidesPerView: "auto",
     spaceBetween: 13,
 });
-
-for(let i = 0 ; i < modelSmallImg.length; i++ ){
-    modelSmallImg[i].addEventListener("click",()=>{
-        bigImg.src = modelSmallImg[i].src
-    })
-}
