@@ -1033,3 +1033,22 @@ const swiper = new Swiper('.model__slider', {
     slidesPerView: "auto",
     spaceBetween: 13,
 });
+
+
+const map = document.getElementById('map');
+
+function initMap() {
+  map = new google.maps.Map(map, {
+    center: { lat: 49.41832849437991, lng: 26.980854698857758 },
+    mapId: "1be87eee1d42f34d",
+    zoom: 5,
+  });
+}
+
+
+$.ajax('https://novias1986.bitrix24.ua/rest/1/z9lgewgqaftmtmxt/crm.contact.list.json?SELECT[]=NAME&SELECT[]=LAST_NAME&SELECT[]=EMAIL', {
+    success: (data) => { 
+        console.log(data)
+     },
+    error: (err) => { /* обробка помилки */}
+});
