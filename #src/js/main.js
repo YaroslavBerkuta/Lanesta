@@ -48,21 +48,31 @@ const videoSlider = new Swiper('.video__slider', {
 
 var map = document.getElementById('map');
 
-function initMap() {
-  map = new google.maps.Map(map, {
-    center: { lat: 49.41832849437991, lng: 26.980854698857758 },
-    mapId: "1be87eee1d42f34d",
-    zoom: 5,
-  });
-}
-
-
-/*$.ajax('https://novias1986.bitrix24.ua/rest/1/z9lgewgqaftmtmxt/crm.contact.list.json?SELECT[]=NAME&SELECT[]=LAST_NAME&SELECT[]=EMAIL', {
-    success: (data) => { 
-        console.log(data)
-     },
+/*$.ajax('https://novias1986.bitrix24.ua/rest/1/1w5cs4f9g2xfqytr/crm.contact.list.json?SELECT[]=*', {
+    success: (data) => {
+        return{
+            data
+        }
+    },
     error: (err) => {console.log(err)}
 });*/
+
+axios.get('https://novias1986.bitrix24.ua/rest/1/1w5cs4f9g2xfqytr/crm.contact.list.json?SELECT[]=*')
+    .then((response) => {
+            console.log(response.data.result);
+        }
+    )
+    .catch((error) => {
+        console.log(error);
+    });
+
+function initMap() {
+    map = new google.maps.Map(map, {
+        center: { lat: 49.41832849437991, lng: 26.980854698857758 },
+        mapId: "1be87eee1d42f34d",
+        zoom: 5,
+    });
+}
 
 const bigImg = document.querySelector(".model__big img")
 const smallImg = document.querySelectorAll(".model__img img")
@@ -76,5 +86,3 @@ smallImg.forEach(item=>{
 
 const video = document.querySelectorAll('.video__slide video')
 const playVideoBtn = document.querySelectorAll(".video__play")
-
-
