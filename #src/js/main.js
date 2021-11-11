@@ -59,6 +59,34 @@ const videoSlider = new Swiper('.video__slider', {
 
 var map = document.getElementById('map');
 
+<<<<<<< HEAD
+=======
+/*$.ajax('https://novias1986.bitrix24.ua/rest/1/1w5cs4f9g2xfqytr/crm.contact.list.json?SELECT[]=*', {
+    success: (data) => {
+        return{
+            data
+        }
+    },
+    error: (err) => {console.log(err)}
+});*/
+>>>>>>> fa9a2535d57d670cc9c66c0c4bd136963d0a2649
+
+axios.get('https://novias1986.bitrix24.ua/rest/1/1w5cs4f9g2xfqytr/crm.contact.list.json?SELECT[]=*')
+    .then((response) => {
+            console.log(response.data.result);
+        }
+    )
+    .catch((error) => {
+        console.log(error);
+    });
+
+function initMap() {
+    map = new google.maps.Map(map, {
+        center: { lat: 49.41832849437991, lng: 26.980854698857758 },
+        mapId: "1be87eee1d42f34d",
+        zoom: 5,
+    });
+}
 
 const bigImg = document.querySelector(".model__big img")
 const smallImg = document.querySelectorAll(".model__img img")
@@ -70,6 +98,7 @@ smallImg.forEach(item=>{
   })
 })
 
+<<<<<<< HEAD
 
 function initMap() {
   const center =  { lat: 49.41832849437991, lng: 26.980854698857758 }
@@ -136,3 +165,7 @@ if(window.innerWidth <= 768){
   const modelLeft = document.querySelector(".model__left")
   modelLeft.insertBefore(modelNav, modelLeft.firstChild)
 }
+=======
+const video = document.querySelectorAll('.video__slide video')
+const playVideoBtn = document.querySelectorAll(".video__play")
+>>>>>>> fa9a2535d57d670cc9c66c0c4bd136963d0a2649
