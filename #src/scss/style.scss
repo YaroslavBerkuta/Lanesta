@@ -1182,14 +1182,11 @@ footer {
     justify-content: space-between;
     margin-top: 32px;
     overflow-x: auto;
-<<<<<<< HEAD
     a{
         &:not(:last-child){
             margin-right: 20px;
         }
     }
-=======
->>>>>>> fa9a2535d57d670cc9c66c0c4bd136963d0a2649
 }
 #map {
     width: 100%;
@@ -1224,7 +1221,6 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-<<<<<<< HEAD
     outline: none;
     border: none;
     cursor: pointer;
@@ -1280,13 +1276,6 @@ footer {
     }
 }
 @media (max-width: 1536px) {
-=======
-}
-@media (max-width: 1536px) {
-    section{
-        padding: 65px 0;
-    }
->>>>>>> fa9a2535d57d670cc9c66c0c4bd136963d0a2649
     .container {
         max-width: 1420px;
     }
@@ -1378,22 +1367,15 @@ footer {
         font-size: 40px;
     }
     .collection__preview-img{
-<<<<<<< HEAD
         max-width: 45%;
-=======
-        max-width: 380px;
->>>>>>> fa9a2535d57d670cc9c66c0c4bd136963d0a2649
         margin-right: 125px;
     }
     .collection__preview-info span{
         font-size: 25px;
     }
-<<<<<<< HEAD
     .header__menu nav ul li:not(:last-child){
         margin-bottom: 10px;
     }
-=======
->>>>>>> fa9a2535d57d670cc9c66c0c4bd136963d0a2649
     .collection__preview-info{
         max-width: 430px;
     }
@@ -1523,7 +1505,6 @@ footer {
 @media (max-width: 1024px) {
 
     .container {
-<<<<<<< HEAD
         max-width: 998px;
     }
     .footer__right{
@@ -1562,15 +1543,11 @@ footer {
     }
     .partnership__wrapper form button{
         margin-bottom: 66px;
-=======
-        max-width: 1024px;
->>>>>>> fa9a2535d57d670cc9c66c0c4bd136963d0a2649
     }
 }
 @media (max-width: 768px) {
 
     .container {
-<<<<<<< HEAD
         max-width: 640px;
     }
     .header__logo{
@@ -1685,25 +1662,12 @@ footer {
         margin-bottom: 0;
     }
     
-=======
-        max-width: 768px;
-    }
->>>>>>> fa9a2535d57d670cc9c66c0c4bd136963d0a2649
 }
 @media (max-width: 640px) {
 
     .container {
-<<<<<<< HEAD
         max-width: 100%;
         padding: 0 12px;
     }
     
 }
-=======
-        max-width: 640px;
-    }
-}
-
-
-
->>>>>>> fa9a2535d57d670cc9c66c0c4bd136963d0a2649
