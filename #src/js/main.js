@@ -2,10 +2,13 @@
 @@include('jquery.pagepiling.js')
 
 $(document).ready(function() {
+  if(window.innerWidth > 768){
+    main.contains(pagepiling) && body.classList.add("body-overflow")
     $('#pagepiling').pagepiling( {
-            sectionSelector: '.slide-section',
-        });
+      sectionSelector: '.slide-section',
+      });
     }
+  }
 );
 const body = document.querySelector("body")
 const main = document.querySelector(".main")
@@ -41,7 +44,7 @@ function blogSlider(){
 
 
 
-main.contains(pagepiling) && body.classList.add("body-overflow")
+
 
 const swiper = new Swiper('.model__slider', {
     wrapperClass: "model__wrapper",
