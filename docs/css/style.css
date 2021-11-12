@@ -1116,6 +1116,7 @@ footer .container {
 
 .collection__header {
   position: relative;
+  padding: 350px 100px;
 }
 
 .page__title {
@@ -1153,10 +1154,6 @@ footer .container {
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: #FFFFFF;
-}
-
-.collection__header {
-  padding: 0;
 }
 
 .model__top {
@@ -1822,7 +1819,7 @@ footer .container {
   outline: none;
 }
 
-@media (max-width: 1536px) {
+@media (max-width: 1680px) {
   .container {
     max-width: 1420px;
   }
@@ -1836,6 +1833,16 @@ footer .container {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+  }
+
+  .blog__wrapper {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .blog__wrapper .blog__item {
+    max-width: 28%;
   }
 
   .blog__item {
@@ -1949,8 +1956,7 @@ footer .container {
   }
 
   .collection__preview-img {
-    max-width: 45%;
-    margin-right: 125px;
+    max-width: 30%;
   }
 
   .collection__preview-info span {
@@ -1963,6 +1969,22 @@ footer .container {
 
   .collection__preview-info {
     max-width: 430px;
+  }
+
+  .collerction__preview .collection__preview-flex {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .blog__wrapper {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .blog__wrapper .blog__item {
+    max-width: 25%;
   }
 
   .partnership__preview {
@@ -2539,10 +2561,6 @@ footer .container {
     display: none;
   }
 
-  h1.title {
-    font-size: 38px;
-  }
-
   .collections__item {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 85%;
@@ -2562,9 +2580,7 @@ footer .container {
   .model__nav {
     padding-left: 20px;
   }
-}
 
-@media (max-width: 400px) {
   .blog__item {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 70%;
@@ -2595,8 +2611,8 @@ footer .container {
     bottom: 100%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
   }
 
   .model__left {
