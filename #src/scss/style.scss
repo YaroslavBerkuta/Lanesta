@@ -1930,3 +1930,33 @@ footer {
         margin-top: 20px;
     }
 }
+
+@media (max-width: 560px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .blog__item {
+        margin-right: 15px;
+    }
+
+    .collection__preview-btn a {
+        font-size: 18px;
+    }
+
+    .header__social {
+        display: none;
+    }
+
+    h1.title {
+        font-size: 38px;
+    }
+
+    .collections__item {
+        flex: 0 0 85%;
+    }
+
+    .relate__block {
+        flex: 0 0 70%;
+    }
+}
