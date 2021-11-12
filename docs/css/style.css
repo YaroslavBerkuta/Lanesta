@@ -216,8 +216,8 @@ body {
 
 video {
   max-width: 100%;
-  -o-object-fit: fill;
-     object-fit: fill;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .body-overflow {
@@ -2549,6 +2549,11 @@ footer .container {
     max-width: 100%;
   }
 
+  .header__menu nav ul li a {
+    font-size: 23px;
+    line-height: 50px;
+  }
+
   .blog__item {
     margin-right: 15px;
   }
@@ -2627,5 +2632,9 @@ footer .container {
 
   h2.title {
     font-size: 25px;
+  }
+
+  .blog__wrapper .blog__item {
+    max-width: 60%;
   }
 }
