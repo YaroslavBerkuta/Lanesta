@@ -1,0 +1,77 @@
+2021-11-16T08:20:31+00:00 CRITICAL Maximum execution time of 30 seconds exceeded у C:\MAMP\htdocs\wp-includes\Requests\Transport\cURL.php доступно 462
+
+2021-11-16T11:09:32+00:00 CRITICAL syntax error, unexpected '$term' (T_VARIABLE), expecting ';' or ',' у C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\single-product.php доступно 6
+
+2021-11-16T11:09:35+00:00 CRITICAL syntax error, unexpected '$term' (T_VARIABLE), expecting ';' or ',' у C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\single-product.php доступно 6
+
+2021-11-16T12:35:56+00:00 CRITICAL syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) у C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\single-product.php доступно 64
+
+2021-11-16T12:36:25+00:00 CRITICAL syntax error, unexpected end of file у C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\single-product.php доступно 64
+
+2021-11-16T12:36:45+00:00 CRITICAL syntax error, unexpected '}', expecting ';' or ',' у C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\single-product.php доступно 60
+
+2021-11-16T12:57:00+00:00 CRITICAL syntax error, unexpected 'shop_single' (T_STRING) у C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\single-product.php доступно 54
+
+2021-11-16T13:12:09+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_the_post_thumbnail() in C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\single-product.php:50
+Stack trace:
+#0 C:\MAMP\htdocs\wp-includes\template-loader.php(106): include()
+#1 C:\MAMP\htdocs\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown у C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\single-product.php доступно 50
+
+2021-11-16T13:25:02+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function apply_filters(), 1 passed in C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\single-product.php on line 12 and exactly 2 expected in C:\MAMP\htdocs\wp-includes\plugin.php:163
+Stack trace:
+#0 C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\single-product.php(12): apply_filters('woocommerce_sin...')
+#1 C:\MAMP\htdocs\wp-includes\template-loader.php(106): include('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#4 {main}
+  thrown у C:\MAMP\htdocs\wp-includes\plugin.php доступно 163
+
+2021-11-16T14:07:07+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_thumbnail() in C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\single-product.php:11
+Stack trace:
+#0 C:\MAMP\htdocs\wp-includes\template-loader.php(106): include()
+#1 C:\MAMP\htdocs\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown у C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\single-product.php доступно 11
+
+2021-11-16T14:07:15+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_thumbnail() in C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\single-product.php:11
+Stack trace:
+#0 C:\MAMP\htdocs\wp-includes\template-loader.php(106): include()
+#1 C:\MAMP\htdocs\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown у C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\single-product.php доступно 11
+
+2021-11-16T14:08:03+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::gallery_image_ids_url() in C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\single-product.php:11
+Stack trace:
+#0 C:\MAMP\htdocs\wp-includes\template-loader.php(106): include()
+#1 C:\MAMP\htdocs\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown у C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\single-product.php доступно 11
+
+2021-11-16T14:19:54+00:00 CRITICAL syntax error, unexpected end of file у C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\single-product.php доступно 88
+
+2021-11-16T14:20:08+00:00 CRITICAL syntax error, unexpected end of file у C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\single-product.php доступно 90
+
+2021-11-16T14:33:11+00:00 CRITICAL Cannot redeclare woocommerce_get_product_thumbnail() (previously declared in C:\MAMP\htdocs\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1409) у C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\single-product.php доступно 48
+
+2021-11-16T14:45:52+00:00 CRITICAL syntax error, unexpected 'wp_get_attachment_image' (T_STRING), expecting ';' or ',' у C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\single-product.php доступно 55
+
+2021-11-16T14:46:36+00:00 CRITICAL syntax error, unexpected '}' у C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\single-product.php доступно 56
+
+2021-11-16T14:47:17+00:00 CRITICAL syntax error, unexpected '}' у C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\single-product.php доступно 56
+
+2021-11-16T14:52:38+00:00 CRITICAL syntax error, unexpected 'foreach' (T_FOREACH) у C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\single-product.php доступно 54
+
+2021-11-16T14:52:40+00:00 CRITICAL syntax error, unexpected 'foreach' (T_FOREACH) у C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\single-product.php доступно 54
+
+2021-11-16T14:52:41+00:00 CRITICAL syntax error, unexpected 'foreach' (T_FOREACH) у C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\single-product.php доступно 54
+
+2021-11-16T15:17:55+00:00 CRITICAL syntax error, unexpected end of file у C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\archive-product.php доступно 62
+
+2021-11-16T15:21:31+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting end of file у C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\archive-product.php доступно 47
+

@@ -1,0 +1,254 @@
+2021-11-18T07:46:56+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\archive-product.php:5
+Stack trace:
+#0 C:\MAMP\htdocs\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\MAMP\htdocs\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 C:\MAMP\htdocs\wp-includes\template-loader.php(106): include('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#5 {main}
+  thrown у C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\archive-product.php доступно 5
+
+2021-11-18T07:46:57+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\archive-product.php:5
+Stack trace:
+#0 C:\MAMP\htdocs\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\MAMP\htdocs\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 C:\MAMP\htdocs\wp-includes\template-loader.php(106): include('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#5 {main}
+  thrown у C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\archive-product.php доступно 5
+
+2021-11-18T07:46:58+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\archive-product.php:5
+Stack trace:
+#0 C:\MAMP\htdocs\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\MAMP\htdocs\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 C:\MAMP\htdocs\wp-includes\template-loader.php(106): include('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#5 {main}
+  thrown у C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\archive-product.php доступно 5
+
+2021-11-18T07:47:49+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\archive-product.php:6
+Stack trace:
+#0 C:\MAMP\htdocs\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\MAMP\htdocs\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 C:\MAMP\htdocs\wp-includes\template-loader.php(106): include('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#5 {main}
+  thrown у C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\archive-product.php доступно 6
+
+2021-11-18T07:47:58+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\archive-product.php:6
+Stack trace:
+#0 C:\MAMP\htdocs\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\MAMP\htdocs\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 C:\MAMP\htdocs\wp-includes\template-loader.php(106): include('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#5 {main}
+  thrown у C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\archive-product.php доступно 6
+
+2021-11-18T08:10:47+00:00 CRITICAL Maximum execution time of 30 seconds exceeded у C:\MAMP\htdocs\wp-includes\Requests\Transport\cURL.php доступно 165
+
+2021-11-18T08:10:47+00:00 CRITICAL Maximum execution time of 30 seconds exceeded у C:\MAMP\htdocs\wp-content\plugins\webp-converter-for-media\src\Conversion\Method\ImagickMethod.php доступно 47
+
+2021-11-18T08:10:47+00:00 CRITICAL Maximum execution time of 30 seconds exceeded у C:\MAMP\htdocs\wp-content\plugins\webp-converter-for-media\src\Conversion\Method\ImagickMethod.php доступно 47
+
+2021-11-18T08:10:47+00:00 CRITICAL Maximum execution time of 30 seconds exceeded у C:\MAMP\htdocs\wp-content\plugins\webp-converter-for-media\src\Conversion\Method\ImagickMethod.php доступно 47
+
+2021-11-18T08:27:20+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce() in C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\archive-product.php:26
+Stack trace:
+#0 C:\MAMP\htdocs\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\MAMP\htdocs\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 C:\MAMP\htdocs\wp-includes\template-loader.php(106): include('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#5 {main}
+  thrown у C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\archive-product.php доступно 26
+
+2021-11-18T08:27:36+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce() in C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\archive-product.php:26
+Stack trace:
+#0 C:\MAMP\htdocs\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\MAMP\htdocs\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 C:\MAMP\htdocs\wp-includes\template-loader.php(106): include('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#5 {main}
+  thrown у C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\archive-product.php доступно 26
+
+2021-11-18T08:27:43+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce() in C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\archive-product.php:25
+Stack trace:
+#0 C:\MAMP\htdocs\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\MAMP\htdocs\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 C:\MAMP\htdocs\wp-includes\template-loader.php(106): include('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#5 {main}
+  thrown у C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\archive-product.php доступно 25
+
+2021-11-18T08:27:45+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce() in C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\archive-product.php:25
+Stack trace:
+#0 C:\MAMP\htdocs\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\MAMP\htdocs\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 C:\MAMP\htdocs\wp-includes\template-loader.php(106): include('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#5 {main}
+  thrown у C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\archive-product.php доступно 25
+
+2021-11-18T08:27:55+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce() in C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\archive-product.php:26
+Stack trace:
+#0 C:\MAMP\htdocs\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\MAMP\htdocs\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 C:\MAMP\htdocs\wp-includes\template-loader.php(106): include('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#5 {main}
+  thrown у C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\archive-product.php доступно 26
+
+2021-11-18T08:27:57+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce() in C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\archive-product.php:26
+Stack trace:
+#0 C:\MAMP\htdocs\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\MAMP\htdocs\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 C:\MAMP\htdocs\wp-includes\template-loader.php(106): include('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#5 {main}
+  thrown у C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\archive-product.php доступно 26
+
+2021-11-18T08:28:34+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function woocommerce_format_total(), 0 passed in C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\archive-product.php on line 24 and exactly 1 expected in C:\MAMP\htdocs\wp-content\plugins\woocommerce\includes\wc-deprecated-functions.php:200
+Stack trace:
+#0 C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\archive-product.php(24): woocommerce_format_total()
+#1 C:\MAMP\htdocs\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#3 C:\MAMP\htdocs\wp-includes\template-loader.php(106): include('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#5 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#6 {main}
+  thrown у C:\MAMP\htdocs\wp-content\plugins\woocommerce\includes\wc-deprecated-functions.php доступно 200
+
+2021-11-18T08:37:25+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\archive-product.php:5
+Stack trace:
+#0 C:\MAMP\htdocs\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\MAMP\htdocs\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 C:\MAMP\htdocs\wp-includes\template-loader.php(106): include('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#5 {main}
+  thrown у C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\archive-product.php доступно 5
+
+2021-11-18T08:37:45+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\archive-product.php:5
+Stack trace:
+#0 C:\MAMP\htdocs\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\MAMP\htdocs\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 C:\MAMP\htdocs\wp-includes\template-loader.php(106): include('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#5 {main}
+  thrown у C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\archive-product.php доступно 5
+
+2021-11-18T08:38:53+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_the_terms(), 1 passed in C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\archive-product.php on line 5 and exactly 2 expected in C:\MAMP\htdocs\wp-includes\category-template.php:1274
+Stack trace:
+#0 C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\archive-product.php(5): get_the_terms(NULL)
+#1 C:\MAMP\htdocs\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#3 C:\MAMP\htdocs\wp-includes\template-loader.php(106): include('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#5 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#6 {main}
+  thrown у C:\MAMP\htdocs\wp-includes\category-template.php доступно 1274
+
+2021-11-18T08:39:00+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_the_terms(), 1 passed in C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\archive-product.php on line 5 and exactly 2 expected in C:\MAMP\htdocs\wp-includes\category-template.php:1274
+Stack trace:
+#0 C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\archive-product.php(5): get_the_terms(NULL)
+#1 C:\MAMP\htdocs\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#3 C:\MAMP\htdocs\wp-includes\template-loader.php(106): include('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#5 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#6 {main}
+  thrown у C:\MAMP\htdocs\wp-includes\category-template.php доступно 1274
+
+2021-11-18T08:39:11+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_the_terms(), 1 passed in C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\archive-product.php on line 5 and exactly 2 expected in C:\MAMP\htdocs\wp-includes\category-template.php:1274
+Stack trace:
+#0 C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\archive-product.php(5): get_the_terms(NULL)
+#1 C:\MAMP\htdocs\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#3 C:\MAMP\htdocs\wp-includes\template-loader.php(106): include('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#5 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#6 {main}
+  thrown у C:\MAMP\htdocs\wp-includes\category-template.php доступно 1274
+
+2021-11-18T10:45:15+00:00 CRITICAL require(): Failed opening required './loop/orderby.php' (include_path='.;C:\php\pear') у C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\archive-product.php доступно 26
+
+2021-11-18T10:45:16+00:00 CRITICAL require(): Failed opening required './loop/orderby.php' (include_path='.;C:\php\pear') у C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\archive-product.php доступно 26
+
+2021-11-18T11:04:14+00:00 CRITICAL Uncaught Error: Call to undefined function wc_register_order_type() in C:\MAMP\htdocs\wp-content\plugins\woocommerce\includes\class-wc-post-types.php:385
+Stack trace:
+#0 C:\MAMP\htdocs\wp-includes\class-wp-hook.php(303): WC_Post_Types::register_post_types('')
+#1 C:\MAMP\htdocs\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\MAMP\htdocs\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\MAMP\htdocs\wp-settings.php(578): do_action('init')
+#4 C:\MAMP\htdocs\wp-config.php(96): require_once('C:\\MAMP\\htdocs\\...')
+#5 C:\MAMP\htdocs\wp-load.php(50): require_once('C:\\MAMP\\htdocs\\...')
+#6 C:\MAMP\htdocs\wp-blog-header.php(13): require_once('C:\\MAMP\\htdocs\\...')
+#7 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#8 {main}
+  thrown у C:\MAMP\htdocs\wp-content\plugins\woocommerce\includes\class-wc-post-types.php доступно 385
+
+2021-11-18T11:04:14+00:00 CRITICAL Uncaught Error: Call to undefined function wc_register_order_type() in C:\MAMP\htdocs\wp-content\plugins\woocommerce\includes\class-wc-post-types.php:385
+Stack trace:
+#0 C:\MAMP\htdocs\wp-includes\class-wp-hook.php(303): WC_Post_Types::register_post_types('')
+#1 C:\MAMP\htdocs\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\MAMP\htdocs\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\MAMP\htdocs\wp-settings.php(578): do_action('init')
+#4 C:\MAMP\htdocs\wp-config.php(96): require_once('C:\\MAMP\\htdocs\\...')
+#5 C:\MAMP\htdocs\wp-load.php(50): require_once('C:\\MAMP\\htdocs\\...')
+#6 C:\MAMP\htdocs\wp-blog-header.php(13): require_once('C:\\MAMP\\htdocs\\...')
+#7 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#8 {main}
+  thrown у C:\MAMP\htdocs\wp-content\plugins\woocommerce\includes\class-wc-post-types.php доступно 385
+
+2021-11-18T11:04:43+00:00 CRITICAL Uncaught Error: Call to undefined function wc_register_order_type() in C:\MAMP\htdocs\wp-content\plugins\woocommerce\includes\class-wc-post-types.php:385
+Stack trace:
+#0 C:\MAMP\htdocs\wp-includes\class-wp-hook.php(303): WC_Post_Types::register_post_types('')
+#1 C:\MAMP\htdocs\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\MAMP\htdocs\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\MAMP\htdocs\wp-settings.php(578): do_action('init')
+#4 C:\MAMP\htdocs\wp-config.php(96): require_once('C:\\MAMP\\htdocs\\...')
+#5 C:\MAMP\htdocs\wp-load.php(50): require_once('C:\\MAMP\\htdocs\\...')
+#6 C:\MAMP\htdocs\wp-blog-header.php(13): require_once('C:\\MAMP\\htdocs\\...')
+#7 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#8 {main}
+  thrown у C:\MAMP\htdocs\wp-content\plugins\woocommerce\includes\class-wc-post-types.php доступно 385
+
+2021-11-18T11:04:44+00:00 CRITICAL Uncaught Error: Call to undefined function wc_register_order_type() in C:\MAMP\htdocs\wp-content\plugins\woocommerce\includes\class-wc-post-types.php:385
+Stack trace:
+#0 C:\MAMP\htdocs\wp-includes\class-wp-hook.php(303): WC_Post_Types::register_post_types('')
+#1 C:\MAMP\htdocs\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\MAMP\htdocs\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\MAMP\htdocs\wp-settings.php(578): do_action('init')
+#4 C:\MAMP\htdocs\wp-config.php(96): require_once('C:\\MAMP\\htdocs\\...')
+#5 C:\MAMP\htdocs\wp-load.php(50): require_once('C:\\MAMP\\htdocs\\...')
+#6 C:\MAMP\htdocs\wp-blog-header.php(13): require_once('C:\\MAMP\\htdocs\\...')
+#7 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#8 {main}
+  thrown у C:\MAMP\htdocs\wp-content\plugins\woocommerce\includes\class-wc-post-types.php доступно 385
+
+2021-11-18T11:07:11+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_default_products_per_row() in C:\MAMP\htdocs\wp-content\plugins\woocommerce\includes\class-wc-query.php:502
+Stack trace:
+#0 C:\MAMP\htdocs\wp-content\plugins\woocommerce\includes\class-wc-query.php(388): WC_Query->product_query(Object(WP_Query))
+#1 C:\MAMP\htdocs\wp-includes\class-wp-hook.php(303): WC_Query->pre_get_posts(Object(WP_Query))
+#2 C:\MAMP\htdocs\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 C:\MAMP\htdocs\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#4 C:\MAMP\htdocs\wp-includes\class-wp-query.php(1784): do_action_ref_array('pre_get_posts', Array)
+#5 C:\MAMP\htdocs\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#6 C:\MAMP\htdocs\wp-includes\class-wp.php(629): WP_Query->query(Array)
+#7 C:\MAMP\htdocs\wp-includes\class-wp.php(752): WP->query_posts()
+#8 C:\MAMP\htdocs\wp-includes\functions.php(1291): WP->main('')
+#9 C:\MAMP\htdocs\wp-blog-header.php(16): wp()
+#10 C:\MAMP\htdocs\index.php(17): require(' у C:\MAMP\htdocs\wp-content\plugins\woocommerce\includes\class-wc-query.php доступно 502
+
+2021-11-18T13:19:19+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) у C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\single-product.php доступно 25
+

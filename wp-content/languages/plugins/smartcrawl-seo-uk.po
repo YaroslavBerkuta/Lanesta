@@ -1,0 +1,2792 @@
+# Translation of Plugins - SmartCrawl WordPress SEO checker, SEO analyzer, SEO optimizer - Stable (latest release) in Ukrainian
+# This file is distributed under the same license as the Plugins - SmartCrawl WordPress SEO checker, SEO analyzer, SEO optimizer - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-01-25 11:35:54+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: uk_UA\n"
+"Project-Id-Version: Plugins - SmartCrawl WordPress SEO checker, SEO analyzer, SEO optimizer - Stable (latest release)\n"
+
+#: includes/core/class-wds-controller-pointers.php:90
+msgid "Configure your SEO Titles & Meta, enable OpenGraph and activate readability analysis here."
+msgstr "Налаштуйте свої SEO заголовки та мета, увімкніть OpenGraph та активуйте аналіз читабельності тут."
+
+#: includes/core/class-wds-controller-pointers.php:89
+msgid "Optimize your SEO"
+msgstr "Оптимізуйте SEO"
+
+#: includes/core/class-wds-replacement-helper.php:146
+msgid "Page %1$s of %2$s"
+msgstr "Сторінка %1$s з %2$s"
+
+#: includes/admin/templates/settings/underscore-import-progress.php:12
+msgid "Current Subsite"
+msgstr "Поточний дочірній сайт"
+
+#: includes/admin/templates/settings/underscore-import-progress.php:4
+msgid "Overall Progress"
+msgstr "Загальних прогрес"
+
+#: includes/admin/templates/settings/underscore-import-progress.php:1
+msgid "Importing your %s settings, please keep this window open …"
+msgstr "Імпорт ваших налаштувань %s, будь ласка, тримайте це вікно відкритим..."
+
+#: includes/admin/templates/advanced-tools/advanced-robots-settings.php:89
+#: includes/admin/templates/advanced-tools/advanced-robots-settings.php:99
+#: includes/admin/templates/advanced-tools/advanced-section-automatic-linking-settings.php:78
+#: includes/admin/templates/advanced-tools/advanced-section-automatic-linking-settings.php:88
+#: includes/admin/templates/schema/schema-section-settings.php:32
+#: includes/admin/templates/schema/schema-section-settings.php:46
+#: includes/admin/templates/settings/underscore-import-success.php:35
+#: includes/admin/templates/sitemap/sitemap-deactivate-button.php:8
+#: includes/admin/templates/sitemap/sitemap-deactivate-button.php:22
+msgid "Deactivate"
+msgstr "Відключити"
+
+#: includes/admin/templates/settings/underscore-import-success.php:28
+#: includes/assets/js/build/wds-admin-sitemaps.js:1
+#: includes/assets/js/build/wds-black-friday.js:1
+#: includes/assets/js/components/crawler/crawl-item-occurrences-modal.js:41
+#: includes/assets/js/wds-black-friday.js:26
+msgid "Close"
+msgstr "Закрити"
+
+#: includes/admin/templates/settings/underscore-import-success.php:4
+msgid "Your %s settings have been imported successfully and are now active."
+msgstr "Ваші налаштування %s успішно імпортовані та вже діють."
+
+#: includes/admin/templates/settings/underscore-import-error.php:15
+msgid "Try Again"
+msgstr "Спробувати знову"
+
+#: includes/admin/templates/settings/underscore-import-error.php:1
+msgid "We have encountered an error while importing your data. You may retry the import or contact our support if the problem persists."
+msgstr "Ми стикнулись з помилкою під час імпорту ваших даних. Ви можете повторити спробу імпорту, або зв'язатись з нашою командою підтримки, якщо проблема зберігається."
+
+#: includes/admin/templates/settings/underscore-import-options.php:62
+msgid "Note: Importing can take a while if you have a large amount of content on your website."
+msgstr "Примітка: Імпорт може зайняти певний час, якщо у вміст вашого сайту досить великий."
+
+#: includes/admin/templates/settings/underscore-import-options.php:56
+msgid "Begin Import"
+msgstr "Розпочати імпорт"
+
+#: includes/admin/templates/settings/underscore-import-options.php:45
+msgid "If you have already set up SmartCrawl on some posts and pages then enable this option to keep those values from getting overwritten."
+msgstr "Якщо ви вже налаштувати SmartCrawl для деяких записів та сторінок, тоді увімкніть цей параметр, щоб запобігти перезапису цих налаштувань."
+
+#: includes/admin/templates/settings/underscore-import-options.php:31
+msgid "Import your title & meta settings for posts and pages."
+msgstr "Імпортувати заголовки та мета налаштування для записів та сторінок."
+
+#: includes/admin/templates/settings/underscore-import-options.php:30
+#: includes/assets/js/build/wds-schema-types.js:1
+#: includes/assets/js/components/schema/schema-sources/array.js:7
+#: includes/assets/js/components/schema/schema-sources/date-time.js:16
+#: includes/assets/js/components/schema/schema-sources/duration.js:7
+#: includes/assets/js/components/schema/schema-sources/email.js:13
+#: includes/assets/js/components/schema/schema-sources/image-object.js:19
+#: includes/assets/js/components/schema/schema-sources/image-url.js:19
+#: includes/assets/js/components/schema/schema-sources/number.js:7
+#: includes/assets/js/components/schema/schema-sources/phone.js:7
+#: includes/assets/js/components/schema/schema-sources/text-basic.js:7
+#: includes/assets/js/components/schema/schema-sources/text-full.js:24
+#: includes/assets/js/components/schema/schema-sources/url.js:19
+msgid "Post Meta"
+msgstr "Мата дані посту"
+
+#: includes/admin/templates/settings/underscore-import-options.php:19
+msgid "Import your title & meta settings for categories, tags and custom taxonomies."
+msgstr "Імпортувати заголовки та мета налаштування для категорій, позначок та користувацьких таксономій."
+
+#: includes/admin/templates/settings/underscore-import-options.php:18
+msgid "Term Meta"
+msgstr "Мета дані таксономії"
+
+#: includes/admin/templates/settings/underscore-import-options.php:9
+msgid "Import %s settings that are relevant to SmartCrawl."
+msgstr "Імпорт налаштувань %s, що мають відношення до SmartCrawl."
+
+#: includes/admin/templates/settings/underscore-import-options.php:8
+msgid "Plugin Options"
+msgstr "Параметри плагіна"
+
+#: includes/admin/templates/settings/underscore-import-options.php:2
+msgid "Choose what you'd like to import from %s."
+msgstr "Оберіть, що ви бажаєте імпортувати з %s."
+
+#: includes/admin/templates/advanced-tools/advanced-tools-settings.php:44
+msgctxt "part of a larger text"
+msgid "Configure SmartCrawl to automatically link certain key words to a page on your blog or even"
+msgstr "Налаштуйте SmartCrawl для автоматичного додання посилань на сторінки блогу або навіть"
+
+#: includes/admin/templates/advanced-tools/advanced-tools-settings.php:45
+msgctxt "part of a larger text"
+msgid "a whole new site all together. Internal linking can help boost SEO by giving search engines"
+msgstr "цілого нового сайту до певних ключових слів. Внутрішні посилання можуть допомогти покращити SEO, надаючи пошуковим системам"
+
+#: includes/admin/templates/advanced-tools/advanced-tools-settings.php:46
+msgctxt "part of a larger text"
+msgid "ample ways to index your site."
+msgstr "достатньо шляхів для індексації вашого сайту."
+
+#: includes/tools/sitemaps-dashboard-widget.php:78
+msgid "Done notifying search engines, please hold on..."
+msgstr "Виконується сповіщення пошукових систем, будь ласка, зачекайте..."
+
+#: includes/tools/sitemaps-dashboard-widget.php:77
+msgid "Notifying..."
+msgstr "Сповіщення..."
+
+#: includes/core/class-wds-controller-assets.php:470
+msgid "Yoast"
+msgstr "Yoast"
+
+#: includes/tools/sitemaps-dashboard-widget.php:44
+msgid "Sitemaps - SmartCrawl"
+msgstr "Мапи сайту - SmartCrawl"
+
+#: includes/tools/seomoz/class-wds-moz-metabox.php:51
+msgid "Moz URL Metrics - SmartCrawl"
+msgstr "URL Moz метрики - SmartCrawl"
+
+#: includes/tools/seomoz/class-wds-moz-dashboard-widget.php:63
+msgid "Moz - SmartCrawl"
+msgstr "Moz - SmartCrawl"
+
+#: includes/core/checks/class-wds-check-keywords-used.php:114
+msgid "Note: If you happen to have two pages with the same content, it's important to tell search engines which one to show in search results using the Canonical URL feature. You can read more about this"
+msgstr "Примітка: Якщо у вас є дві сторінки з однаковим вмістом, важливо сказати пошуковим системам, яку з них слід показувати в результатах пошуку за допомогою функції Канонічна URL. Ви можете прочитати більше про це"
+
+#: includes/admin/templates/wp-dashboard/sitemaps-widget.php:50
+msgid "Search engines haven't been recently updated."
+msgstr "Пошукові системи не оновлялись останнім часом."
+
+#: includes/admin/templates/wp-dashboard/sitemaps-widget.php:19
+msgid "items"
+msgstr "елементів"
+
+#: includes/admin/templates/wp-dashboard/sitemaps-widget.php:14
+msgid "Your sitemap contains %s."
+msgstr "Ваша мапа сайту містить %s."
+
+#: includes/core/class-wds-controller-assets.php:627
+msgid "Loading, please hold on..."
+msgstr "Завантаження, будь ласка, зачекайте..."
+
+#: includes/admin/templates/onpage/onpage-twitter-disabled.php:6
+msgid "%1$s You can enable them %2$s."
+msgstr "%1$s Ви можете увімкнути їх %2$s."
+
+#: includes/admin/templates/onpage/onpage-twitter-disabled.php:2
+msgid "Twitter Cards are globally disabled."
+msgstr "Картки Twitter вимкнені глобально."
+
+#: includes/admin/templates/onpage/onpage-settings.php:200
+msgid "Customize title, description and meta for the archive page of custom post type %s."
+msgstr "Налаштуйте заголовок, опис та мета дані для сторінки архіву користувацького типу записів %s."
+
+#: includes/admin/templates/onpage/onpage-og-disabled.php:6
+msgid "%1$s You can enable it %2$s."
+msgstr "%1$s Ви можете увімкнути його %2$s."
+
+#: includes/admin/templates/onpage/onpage-og-disabled.php:2
+msgid "OpenGraph is globally disabled."
+msgstr "OpenGraph вимкнено глобально."
+
+#: includes/admin/templates/metabox/metabox-advanced-indexing.php:45
+msgid "Follow - Override Post Type Setting"
+msgstr "Слідувати - Перевизначає налаштування цього типу записів"
+
+#: includes/admin/templates/metabox/metabox-advanced-indexing.php:26
+msgid "Index - Override Post Type Setting"
+msgstr "Індексувати - Перевизначає налаштування цього типу записів"
+
+#: includes/admin/templates/dashboard/dashboard-top.php:48
+msgid "Please wait while we finish the checkup ..."
+msgstr "Будь ласка, зачекайте поки ми завершуємо перевірку..."
+
+#: includes/admin/templates/advanced-tools/advanced-section-automatic-linking.php:33
+msgid "Only link to a specific URL once per page/post."
+msgstr "Додавати посилання на окрему URL-адресу один раз на одну сторінку/запис."
+
+#: includes/admin/templates/page-header.php:31
+msgid "View Documentation"
+msgstr "Переглянути документацію"
+
+#: includes/admin/templates/advanced-tools/advanced-section-moz.php:15
+msgid "MOZ Disabled"
+msgstr "MOZ вимкнено"
+
+#: includes/admin/settings/settings.php:525
+#: includes/core/class-wds-controller-plugin-links.php:54
+msgid "Rate SmartCrawl"
+msgstr "Оцініть SmartCrawl"
+
+#: includes/admin/settings/onpage.php:635
+msgid "Post type label plural"
+msgstr "Назва типу записів в множині"
+
+#: includes/admin/settings/onpage.php:636
+msgid "Post type label singular"
+msgstr "Назва типу записів в однині"
+
+#: includes/admin/admin.php:258
+msgid "You can fix this here"
+msgstr "Ви можете виправити це тут"
+
+#: includes/admin/admin.php:257
+msgid "This site discourages search engines from indexing the pages, which will affect your SEO efforts."
+msgstr "Цей сайт не дозволяє пошуковим системам індексувати сторінки, що вплине на ваші зусилля в покращенні SEO."
+
+#: includes/core/class-wds-macro.php:303
+msgid "Page %1$s of %1$s"
+msgstr "Сторінка %1$s з %1$s"
+
+#: includes/core/class-wds-macro.php:283
+msgid "Page %1$d of %1$d"
+msgstr "Сторінка %1$d з %1$d"
+
+#: includes/core/third-party-import/class-wds-controller-third-party-import.php:133
+msgid "We couldn't find any compatible data to import."
+msgstr "Ми не змогли знайти сумісних даних для імпорту."
+
+#: includes/core/third-party-import/class-wds-controller-third-party-import.php:128
+msgid "You don't have permission to perform this operation."
+msgstr "У вас недостатньо прав для виконання цієї операції."
+
+#: includes/core/third-party-import/class-wds-controller-third-party-import.php:176
+msgid "Invalid parameters. Try refreshing the page and attempting again."
+msgstr "Невірні параметри експорту. Оновіть сторінку та спробуйте експортувати знову."
+
+#: includes/core/checks/class-wds-check-links-count.php:78
+msgid "Note: This check is only looking at the content your page is outputting and doesn't include your main navigation. Blogs with lots of posts will benefit the most from this method, as it aids Google in finding and indexing all of your content, not just the latest articles."
+msgstr "Примітка: Ця перевірка оглядає вміст вашої сторінки але не включає вашу головну навігацію. Найбільш корисним цей метод буде для блогів із великою кількістю записів, так як він допомагає Google знайти і проіндексувати увесь контент, а не лише останні записи."
+
+#: includes/admin/templates/sitemap/sitemap-common-settings.php:113
+msgid "e.g. /excluded-url"
+msgstr "наприклад, /excluded-url"
+
+#: includes/admin/templates/sitemap/sitemap-common-settings.php:108
+msgid "Enter any custom URLs you want excluded permanently from the sitemap."
+msgstr "Введіть усі користувацькі URL-адреси які ви бажаєте повністю виключити з мапи сайту."
+
+#: includes/admin/templates/sitemap/sitemap-common-settings.php:106
+msgid "Custom URLs"
+msgstr "Користувацькі URL-адреси"
+
+#: includes/admin/templates/sitemap/sitemap-common-settings.php:100
+msgid "Enter post IDs separated by commas."
+msgstr "Введіть ідентифікатори записів розділені комами."
+
+#: includes/admin/templates/sitemap/sitemap-common-settings.php:95
+msgid "e.g. 1,5,6,99"
+msgstr "наприклад, 1,5,6,99"
+
+#: includes/admin/templates/sitemap/sitemap-common-settings.php:92
+msgid "Enter any particular post IDs you wish to exclude from your sitemap. Note, you can also exclude posts and pages from the post editor page."
+msgstr "Введіть окремі ідентифікатори записів, які ви бажаєте виключити з мапи сайту. Зауважте, ви також можете виключити записи та сторінки під час їх редагування."
+
+#: includes/admin/templates/sitemap/sitemap-common-settings.php:90
+msgid "Posts"
+msgstr "Записи"
+
+#: includes/admin/templates/sitemap/sitemap-common-settings.php:83
+msgid "If you have custom URLs you want explicitly excluded from your Sitemap you can do this here."
+msgstr "Якщо у вас є URL-адреси, які ви бажаєте виключити з Мапи Сайту, ви можете зробити це тут."
+
+#: includes/admin/templates/settings/settings-section-import-export.php:46
+msgid "Automatically import your SEO configuration from other SEO plugins. Note: This will override all of your current settings. We recommend exporting your current settings first, just in case."
+msgstr "Автоматично імпортуйте свої налаштування SEO з іншого SEO плагіну. Примітка: Це перезапише ваші поточні налаштування. Ми рекомендуємо спочатку експортувати ваші поточні налаштування, про всяк випадок."
+
+#: includes/admin/templates/settings/settings-section-import-export.php:14
+msgid "Automatically import your SEO configuration from other SEO plugins."
+msgstr "Автоматичний імпорт ваших SEO налаштувань з інших SEO плагінів."
+
+#: includes/admin/templates/settings/settings-section-import-export.php:12
+msgid "Third Party"
+msgstr "Сторонні Продукти"
+
+#: includes/admin/templates/onpage/onpage-section-buddypress-groups.php:19
+#: includes/admin/templates/onpage/onpage-section-buddypress-profile.php:19
+#: includes/admin/templates/onpage/onpage-twitter-settings.php:9
+msgid "Twitter Cards support enhances how your content appears when shared on Twitter."
+msgstr "Підтримка карток Twitter покращує те як ваш вміст виглядає під час розповсюдження у Twitter."
+
+#: includes/admin/templates/onpage/onpage-social-meta-tags-sub-settings.php:57
+msgid "Default Featured Image"
+msgstr "Зображення Запису За Замовчуванням"
+
+#: includes/admin/templates/metabox/metabox-social-twitter.php:21
+#: includes/admin/templates/term/term-social-tab.php:64
+msgid "These details will be used in Twitter cards."
+msgstr "Ці дані буде використано у картках Twitter."
+
+#: includes/admin/templates/metabox/metabox-social-meta-tags-sub-settings.php:64
+msgid "This image will be used as the featured image when the post is shared."
+msgstr "Це зображення буде використано як зображення запису коли користувач захоче ним поділитись."
+
+#: includes/admin/templates/metabox/metabox-social-meta-tags-sub-settings.php:37
+#: includes/assets/js/build/wds-schema-types.js:1
+#: includes/assets/js/components/schema/schema-sources/image-object.js:15
+msgid "Featured Image"
+msgstr "Зображення Запису"
+
+#: includes/admin/templates/metabox/metabox-social-meta-tags.php:14
+msgid "Enable for this post"
+msgstr "Ввімкнути для цього запису"
+
+#: includes/admin/templates/metabox/analysis-readability.php:76
+#: includes/admin/templates/metabox/metabox-seo-analysis-container.php:23
+msgid "Refresh"
+msgstr "Оновити"
+
+#: includes/admin/templates/advanced-tools/advanced-section-automatic-linking-settings.php:62
+msgid "Use 0 to allow unlimited automatic links."
+msgstr "Використовуйте 0 для необмежених автоматичних посилань."
+
+#: includes/core/service/class-wds-checkup-service.php:384
+msgid "Your request timed out"
+msgstr "Час запиту вичерпано"
+
+#: includes/core/class-wds-model-analysis.php:456
+msgid "in plain english"
+msgstr "в звичайній англійській"
+
+#: includes/core/class-wds-model-analysis.php:448
+msgid "Your content is %s."
+msgstr "Ваш вміст %s."
+
+#: includes/core/class-wds-model-analysis.php:114
+#: includes/core/class-wds-model-analysis.php:183
+msgid "Error calculating readability"
+msgstr "Помилка підрахунку читабельності"
+
+#: includes/core/class-wds-model-analysis.php:177
+msgid "No content to check"
+msgstr "Немає контенту для перевірки"
+
+#: includes/core/class-wds-model-analysis.php:266
+#: includes/core/class-wds-model-analysis.php:445
+msgid "Very difficult to read"
+msgstr "Дуже важко читати"
+
+#: includes/core/class-wds-model-analysis.php:265
+#: includes/core/class-wds-model-analysis.php:444
+msgid "Difficult to read"
+msgstr "Важко читати"
+
+#: includes/core/class-wds-model-analysis.php:264
+#: includes/core/class-wds-model-analysis.php:443
+msgid "Fairly difficult to read"
+msgstr "Досить важко читати"
+
+#: includes/core/class-wds-model-analysis.php:263
+#: includes/core/class-wds-model-analysis.php:269
+#: includes/core/class-wds-model-analysis.php:442
+msgid "Plain English"
+msgstr "Звичайна англійська"
+
+#: includes/core/class-wds-model-analysis.php:262
+#: includes/core/class-wds-model-analysis.php:441
+msgid "Fairly easy to read"
+msgstr "Досить легко читати"
+
+#: includes/core/class-wds-model-analysis.php:261
+#: includes/core/class-wds-model-analysis.php:440
+msgid "Easy to read"
+msgstr "Легко читати"
+
+#: includes/core/class-wds-model-analysis.php:260
+#: includes/core/class-wds-model-analysis.php:439
+msgid "Very easy to read"
+msgstr "Дуже легко читати"
+
+#: includes/core/configs/class-wds-import.php:85
+msgid "Import process failed, aborting"
+msgstr "Не вдалося виконати імпортування, робота припинена "
+
+#: includes/core/class-wds-controller-assets.php:370
+msgid "All done, please hold on..."
+msgstr "Виконано, будь ласка, зачекайте..."
+
+#: includes/core/class-wds-controller-cron.php:381
+msgid "SmartCrawl Monthly"
+msgstr "SmartCrawl Щомісяця"
+
+#: includes/core/class-wds-controller-cron.php:374
+msgid "SmartCrawl Weekly"
+msgstr "SmartCrawl Щотижня"
+
+#: includes/core/class-wds-controller-cron.php:367
+msgid "SmartCrawl Daily"
+msgstr "SmartCrawl Щодня"
+
+#: includes/core/class-wds-controller-cron.php:222
+msgid "Monthly"
+msgstr "Щомісяця"
+
+#: includes/core/class-wds-controller-cron.php:221
+msgid "Weekly"
+msgstr "Щотижня"
+
+#: includes/core/class-wds-controller-cron.php:220
+msgid "Daily"
+msgstr "Щодня"
+
+#: includes/admin/templates/post-list/post-seo-analysis-errors.php:10
+#: includes/core/class-wds-controller-analysis.php:271
+#: includes/core/class-wds-controller-analysis.php:313
+msgid "N/A"
+msgstr "Н/З"
+
+#: includes/core/class-wds-controller-analysis.php:610
+msgid "Readability:"
+msgstr "Читабельність:"
+
+#: includes/core/class-wds-controller-analysis.php:603
+msgid "SEO:"
+msgstr "SEO"
+
+#: includes/core/class-wds-controller-analysis.php:581
+msgid "Needs Improvement"
+msgstr "Потребує Покращення"
+
+#: includes/core/class-wds-controller-analysis.php:578
+msgid "No Focus Keyword"
+msgstr "Немає Фокусного Ключового Слова"
+
+#: includes/core/class-wds-checks.php:257
+msgid "We encountered an error fetching your content"
+msgstr "Ми стикнулися з помилкою при отриманні вашого контенту"
+
+#: includes/core/checks/class-wds-check-title-length.php:117
+msgid "Your SEO title is the most important element because it is what users will see in search engine results. You'll want to make sure that you have your focus keywords in there, that it's a nice length, and that people will want to click on it. Best practices suggest keeping your titles between %2$d and %3$d characters including spaces, though in some cases 60 is the sweetspot. The length is important both for SEO ranking but also how your title will show up in search engines - long titles will be cut off visually and look bad. Unfortunately there isn't a rule book for SEO titles, just remember to make your title great for SEO but also (most importantly) readable and enticing for potential visitors to click on."
+msgstr "Ваш SEO заголовок - це найважливіший елемент, тому що це те, що користувачі бачитимуть в результатах видачі пошукових систем. Переконайтеся, що ви включили в нього фокусуюче ключове слово, що він має хорошу довжину і що люди захочуть натиснути на нього. Найкраща практика рекомендує використовувати довжину від %2$d до %3$d символів включно з пробілами, хоча в деяких випадках 60 - це золота середина. Довжина важлива як для SEO рейтингу так і для того як ваш заголовок буде відображатися у видачі пошукових систем - довгі заголовки будуть обрізані візуально і виглядатимуть погано. На жаль, не існує підручника для SEO заголовків, просто не забувайте робити свій заголовок хорошим для SEO але й читабельним і привабливим для ваших потенційних відвідувачів."
+
+#: includes/core/checks/class-wds-check-title-length.php:97
+msgid "You have NOT written an SEO specific title for this article. We recommend an SEO specific title between %2$d and %3$d characters, optimized with your focus keywords."
+msgstr "Ви не вказали SEO заголовок для цієї статті. Ми рекомендуємо використання SEO заголовка від %2$d до %3$d символів, оптимізованого згідно ваших ключових слів."
+
+#: includes/core/checks/class-wds-check-title-length.php:91
+msgid "Your SEO title is %1$d characters which is between the recommended best practice of %2$d-%3$d characters."
+msgstr "Ваш SEO заголовок складає %1$d символів, що входить в рекомендований проміжок %2$d-%3$d символів."
+
+#: includes/core/checks/class-wds-check-title-keywords.php:9
+msgid "We couldn't find a title to check for keywords"
+msgstr "Не вдалося знайти заголовок для перевірки ключових слів"
+
+#: includes/core/checks/class-wds-check-para-keywords.php:45
+msgid "It's good practice to include your focus keywords in the first paragraph of your content so that search engines and visitors can quickly scope the topic of your article."
+msgstr "Вважається хорошою практикою включати фокусуюче ключове слово в перший параграф вашої публікації, таким чином пошукові системи і відвідувачі зможуть швидко зрозуміти тему вашої статті."
+
+#: includes/core/checks/class-wds-check-metadesc-keywords.php:61
+msgid "The focus keyword for this article appears in the SEO description which means it has a better chance of matching what your visitors will search for, brilliant!"
+msgstr "Фокусуюче ключове слово цієї статті присутнє в SEO описі, що надає їй більший шанс на співпадіння з тим що шукають користувачі, відмінно!"
+
+#: includes/core/checks/class-wds-check-metadesc-keywords.php:9
+msgid "We couldn't find a description to check for keywords"
+msgstr "Не вдалося знайти опис для перевірки ключових слів"
+
+#: includes/core/checks/class-wds-check-title-keywords.php:71
+msgid "It's considered good practice to try to include your focus keyword(s) in the SEO title of a page because this is what people looking for the article are likely searching for. The higher chance of a keyword match, the greater the chance that your article will be found higher up in search results. Whilst it's recommended to try and get these words in, don't sacrifice readability and the quality of the SEO title just to rank higher - people may not want to click on it if it doesn't read well."
+msgstr "Зважаючи на хорошу практику, спробуйте включити фокусуюче ключове слово (слова) в SEO заголовок сторінки, оскільки, саме по цьому люди шукають статті. Чим вища відповідність ключовим словам, тим більше шанс що ваша стаття буде знаходитись вище в результатах пошуку. Але не зважаючи на те, що рекомендуються включити ці слова, не жертвуйте читабельністю і якістю SEO заголовку лише заради вищого розміщення - люди можуть не захотіти натискати на такий заголовок якщо він погано читається."
+
+#: includes/core/checks/class-wds-check-subheadings-keywords.php:43
+msgid "Using keywords in any of your subheadings (such as H2's or H3's) will help both the user and search engines quickly figure out what your article is about. It's best practice to include your focus keywords in at least one subheading if you can."
+msgstr "Використання ключових слів у будь-якому з підзаголовків (таких як H2 чи H3) допоможе як користувачам, так і пошуковим системам швидше зрозуміти про що йдеться у вашій статті. Найкращою практикою вважається використання фокусуючого ключового слова в щонайменше одному підзаголовку, якщо це можливо."
+
+#: includes/core/checks/class-wds-check-links-count.php:61
+#: includes/core/checks/class-wds-check-links-count.php:62
+msgid "Internal links help search engines crawl your website, effectively pointing them to more pages to index on your website. You should consider adding at least one internal link to another related article."
+msgstr "Внутрішні посилання допомагають пошуковим системам сканувати ваш веб-сайт, ефективно направляючи їх на інші сторінки для індексації. Ви повинні спробувати додати щонайменше одне внутрішнє посилання на іншу відповідну статтю."
+
+#: includes/core/checks/class-wds-check-keywords-used.php:109
+msgid "So whilst there's no direct penalty, if your content isn't unique then search engine algorithms could be filtering out your articles from their results. The easiest way to make sure this doesn't happen is to try and make each of your posts and pages as unique as possible, hence specifying different focus keywords for each article you write."
+msgstr "Таким чином, поки немає прямого пенальті, якщо ваш контент не унікальний, тоді пошукові системи будуть відфільтровувати ваші статті з результатів пошуку. Найлегшим способом запобігти цьому є переконатися що всі ваші записи і сторінки настільки унікальні наскільки можливо, отже вказуйте різні ключові слова для кожної статті яку ви пишете."
+
+#: includes/core/checks/class-wds-check-keywords-used.php:105
+msgid "2. They don't know whether to direct the link metrics (trust, authority, anchor text, link equity, etc.) to one page, or keep it separated between multiple versions."
+msgstr "2. Невідомо чи спрямовувати метрику посилання (довіру, авторитет, текст якорів, справедливість посилань, тощо) на одну сторінку, чи тримати її розділеною між кількома версіями."
+
+#: includes/core/checks/class-wds-check-keywords-used.php:104
+msgid "1. It's unclear which versions to include/exclude from their indexes."
+msgstr "1. Неясно, які версії включати/виключати з індексації."
+
+#: includes/core/checks/class-wds-check-keywords-used.php:101
+msgid "Whilst duplicate content isn't technically penalized it presents three rather niggly issues for search engines:"
+msgstr "У той час як дубльований вміст технічно не є порушенням, його присутність представляє три досить важливі проблеми для пошукових систем:"
+
+#: includes/core/checks/class-wds-check-keywords-used.php:92
+msgid "Focus keywords are intended to be unique so you're less likely to write duplicate content. Consider changing the focus keywords to something unique."
+msgstr "Фокусуючі ключові слова повинні бути унікальним, тому ви, менш імовірно напишете дубльований контент. Подумайте про зміну фокусуючих ключових слів."
+
+#: includes/core/checks/class-wds-check-keywords-used.php:90
+msgid "Focus keywords are intended to be unique so you're less likely to write duplicate content. So far all your focus keywords are unique, way to go!"
+msgstr "Фокусуючі ключові слова повинні бути унікальним, тому ви, менш імовірно напишете дубльований контент. Поки що всі фокусуючі ключові слова є унікальними, чудово!"
+
+#: includes/core/checks/class-wds-check-imgalts-keywords.php:74
+msgid "Alternative attribute text for images help search engines correctly index images and aid visually impaired readers. The text is also used in place of the image if it's unable to load. You should add alternative text for all images in your content."
+msgstr "Атрибут альтернативного тексту для зображень допомагає пошуковим системам правильно індексувати зображення і допомагає читачам з обмеженими можливостями зору. Цей текст використовується замість зображення якщо неможливо завантажити картинку. Ви повинні додати альтернативний текст до всіх ваших зображень."
+
+#: includes/core/checks/class-wds-check-focus-stopwords.php:48
+msgid "Stop words are words which can be considered insignificant in a search query, either because they are way too common, or because they do not convey much information. Such words are often filtered out from a search query. Ideally, you will want such words to not be a part of your article focus."
+msgstr "Стоп-слова - це слова, які вважаються беззмістовними в пошуковому запиті, оскільки вони надто поширені, або тому, що вони не несуть якоїсь інформації. Такі слова часто вилучаються з пошукового запиту. В ідеалі, слід  прагнути, щоб такі слова не входили до вашої статті."
+
+#: includes/core/checks/class-wds-check-focus-stopwords.php:42
+msgid "Your focus %s contains some words that might be considered insignificant in a search query."
+msgstr "Ваш фокус %s містить деякі слова, які можуть вважатися беззмістовними у пошуковому запиті."
+
+#: includes/core/checks/class-wds-check-focus-stopwords.php:41
+msgid "You kept the focus %s of your article to the point, way to go!"
+msgstr "Ви чудово витримали фокус %s вашої статті, відмінно!"
+
+#: includes/core/checks/class-wds-check-focus-stopwords.php:38
+msgid "key phrase"
+msgstr "ключова фраза"
+
+#: includes/core/checks/class-wds-check-focus-stopwords.php:33
+msgid "keywords or key phrases"
+msgstr "ключові слова або ключові фрази"
+
+#: includes/core/checks/class-wds-check-focus-stopwords.php:31
+#: includes/core/checks/class-wds-check-focus-stopwords.php:37
+msgid "keywords"
+msgstr "ключові слова"
+
+#: includes/core/checks/class-wds-check-focus-stopwords.php:10
+msgid "Focus to the point"
+msgstr "Зосередьтеся на точці"
+
+#: includes/core/checks/class-wds-check-focus-stopwords.php:9
+msgid "There are stop words in focus keywords"
+msgstr "У фокусуючих ключових словах є стоп-слова"
+
+#: includes/core/checks/class-wds-check-focus.php:32
+msgid "Selecting focus keywords helps describe what your content is about."
+msgstr "Вибір фокусуючих ключових слів допомагає описати зміст вашого контенту."
+
+#: includes/core/checks/class-wds-check-focus.php:28
+msgid "Nice work, now that we know what your article is about we can be more specific in analysis."
+msgstr "Чудова робота, тепер коли ми знаємо про що ваша стаття, ми можемо бути більш точні в аналізі."
+
+#: includes/core/checks/class-wds-check-focus.php:27
+msgid "In order to give your content the best possible chance to be discovered, it is best to select some focus keywords or key phrases, to give it some context."
+msgstr "Щоб надати вашому контенту найкращий шанс бути знайденим, краще обрати певні ключові слова або фрази, щоб надати йому певного контексту."
+
+#: includes/core/checks/class-wds-check-focus.php:15
+msgid "There are some focus keywords"
+msgstr "Є кілька фокусуючих ключових слів"
+
+#: includes/core/checks/class-wds-check-focus.php:14
+msgid "There are no focus keywords"
+msgstr "Немає жодного фокусуючого ключового слова"
+
+#: includes/core/checks/class-wds-check-content-length.php:54
+msgid "The best practice minimum content length for the web is %1$d words so we recommend you aim for at least this amount - the more the merrier."
+msgstr "Найкращою практикою вважається мінімальна довжина контентуб що складає %1$d слів, тому ми рекомендуємо вам досягнути хоча б цієї кількості слів - чим більше, тим краще."
+
+#: includes/core/checks/class-wds-check-content-length.php:52
+msgid "Your content is longer than the recommend minimum of %1$d words, excellent!"
+msgstr "Ваш контент довший за рекомендований мінімум %1$d слів, чудово!"
+
+#: includes/admin/templates/advanced-tools/advanced-robots-disabled.php:20
+#: includes/admin/templates/disabled-component-inner.php:23
+msgid "Disabled"
+msgstr "Вимкнено"
+
+#: includes/admin/templates/dashboard/dashboard-widget-advanced-tools.php:113
+msgid "Configure SmartCrawl to automatically link certain key words to a page on your blog or even a whole new site all together."
+msgstr "Налаштуйте SmartCrawl, щоб автоматично зв'язати певні ключові слова з сторінкою у вашому блогу або, навіть, із новим сайтом."
+
+#: includes/core/checks/class-wds-check-content-length.php:65
+msgid "Content is ultimately the bread and butter of your SEO. Without words, your pages and posts will have a hard time ranking for the keywords you want them to. As a base for any article best practice suggests a minimum of %1$d words, with 1000 being a good benchmark and 1600 being the optimal. Numerous studies have uncovered that longer content tends to perform better than shorter content, with pages having 1000 words or more performing best. Whilst optimizing your content for search engines is what we're going for here, a proven bi-product is that high quality long form articles also tend to get shared more on social platforms. With the increasing power of social media as a tool for traffic it's a nice flow on effect of writing those juicy high quality articles your readers are waiting for."
+msgstr "Контент - це хліб насущний вашого SEO. Без слів, ваші сторінки і записи буде важко класифікувати по ключовим словам які вам потрібні. Як основу будь-якої статті, рекомендовано, використовувати як мінімум %1$d слів, де 1000 - є хорошим орієнтиром, а  1600 слів  - є оптимальним. Численні дослідження виявили, що більш довгий текст має тенденцію працювати краще, ніж коротший, при цьому сторінки з 1000 слів або більше мають найкращу ефективність. Хоча оптимізація вашого контенту для пошукових систем - це те, що ми робимо тут, перевірені продукти з високоякісними довгими статтями також мають тенденцію краще поширюватись у соціальних мережах. Зі зростанням сили соціальних мереж як інструмента для збільшення трафіку, це чудовий наслідок написання чудових соковитих високоякісних статей на які очікують ваші читачі."
+
+#: includes/admin/templates/social/social-settings.php:50
+msgid "Add meta data to your pages to make them look great when shared on Twitter."
+msgstr "Додайте мета-дані до ваших сторінок щоб вони виглядали чудово під час розповсюдження у Twitter."
+
+#: includes/admin/templates/schema/schema-settings.php:48
+msgid "Let search engines know whether you’re an organization or a person, then add all your social profiles so search engines know which social profiles to attribute your web content to."
+msgstr "Повідомте пошукові системи, чи є ви організацією чи приватною особою, а потім додайте всі свої соціальні профілі, щоб пошукові знали до яких соціальних профілів відносити ваш контент."
+
+#: includes/admin/templates/social/social-twitter-cards-toggle-sub-settings.php:54
+msgid "A preview of how your Homepage will appear as a Twitter Card."
+msgstr "Попередній перегляд того, як ваша домашня сторінка буде відображатися  у Twitter Картці."
+
+#: includes/admin/templates/onpage/onpage-twitter-settings.php:7
+#: includes/admin/templates/social/social-section-twitter-cards.php:15
+msgid "Enable Twitter Cards"
+msgstr "Увімкнути Twitter Картки"
+
+#: includes/admin/templates/social/social-section-pinterest-verification.php:40
+msgid "To remove verification simply remove this meta tag."
+msgstr "Щоб видалити підтвердження, просто видаліть цей метатег."
+
+#: includes/admin/templates/social/social-section-pinterest-verification.php:37
+msgid "3. Copy the meta tag"
+msgstr "3. Скопіюйте метатег"
+
+#: includes/admin/templates/social/social-section-pinterest-verification.php:36
+msgid "2. Scroll to the Website field, add your website and click Confirm website."
+msgstr "2. Перейдіть до поля Веб-сайт, додайте ваш сайт і натисніть \"Підтвердити\"."
+
+#: includes/admin/templates/social/social-section-pinterest-verification.php:35
+msgid "1. Go to your Account Settings area."
+msgstr "1. Перейдіть до Налаштувань Облікового Запису."
+
+#: includes/admin/templates/social/social-section-pinterest-verification.php:33
+msgid "Instructions:"
+msgstr "Інструкція:"
+
+#: includes/admin/templates/social/social-section-pinterest-verification.php:30
+msgid "Enter your Pinterest meta tag here"
+msgstr "Введіть ваш мета-тег Pinterest тут"
+
+#: includes/admin/templates/social/social-section-pinterest-verification.php:23
+msgid "This setting will add the meta tag to verify your website with Pinterest."
+msgstr "Цей параметр додасть мета-тег для перевірки вашого сайту у  Pinterest."
+
+#: includes/admin/templates/social/social-section-pinterest-verification.php:22
+msgid "Pinterest Meta Tag"
+msgstr "Мета-тег Pinterest"
+
+#: includes/admin/templates/social/social-section-pinterest-verification.php:12
+msgid "Your domain verification tag has been added to the <head> of your website."
+msgstr "Тег підтвердження домену був доданий до <head> вашого веб-сайту."
+
+#: includes/admin/templates/social/social-section-pinterest-verification.php:7
+msgid "Verification failed"
+msgstr "Верифікація не вдалася"
+
+#: includes/admin/templates/social/social-section-open-graph.php:9
+msgid "By default OpenGraph will use your default titles, descriptions and feature images. You can override the default on a per post basis inside the post editor, as well as under Titles & Meta for specific post types."
+msgstr "По замовчуванню, OpenGraph буде використовувати ваші стандартні заголовки, описи і прикріплені зображення. Ви можете перевизначити їх для кожного запису як у редакторі запису, так і у розділі Заголовки & Мета для окремих типів записів."
+
+#: includes/admin/templates/social/social-section-open-graph.php:5
+msgid "This will add a few extra meta tags to the head section of your pages."
+msgstr "Це додасть кілька додаткових мета-тегів до head-секції ваших сторінок."
+
+#: includes/admin/templates/social/social-section-open-graph.php:4
+msgid "OpenGraph Support"
+msgstr "Підтримка OpenGraph"
+
+#: includes/admin/templates/schema/schema-social-accounts.php:92
+msgid "Youtube URL"
+msgstr "URL-адреса Youtube"
+
+#: includes/admin/templates/schema/schema-social-accounts.php:80
+msgid "Pinterest URL"
+msgstr "URL-адреса Pinterest"
+
+#: includes/admin/templates/schema/schema-social-accounts.php:68
+msgid "Linkedin URL"
+msgstr "URL-адреса Linkedin"
+
+#: includes/admin/templates/schema/schema-social-accounts.php:56
+msgid "Instagram URL"
+msgstr "URL-адреса Instagram"
+
+#: includes/admin/templates/schema/schema-social-accounts.php:32
+msgid "Facebook App ID"
+msgstr "Facebook App ID"
+
+#: includes/admin/templates/schema/schema-social-accounts.php:20
+msgid "Twitter Username"
+msgstr "Ім'я користувача Twitter"
+
+#: includes/admin/templates/schema/schema-section-general.php:89
+#: includes/assets/js/build/wds-schema-types.js:1
+#: includes/assets/js/components/schema/schema-properties/product/product.js:121
+#: includes/assets/js/components/schema/schema-properties/product/woo-product.js:185
+msgid "Organization"
+msgstr "Організація"
+
+#: includes/admin/templates/schema/schema-section-general.php:79
+msgid "Person"
+msgstr "Особа"
+
+#: includes/admin/templates/sitemap/sitemap-settings.php:100
+msgid "Automatically generate a sitemap and regularly send updates to Google."
+msgstr "Автоматично оновлювати мапу сайту і регулярно відправляти оновлення до Google."
+
+#: includes/admin/templates/sitemap/sitemap-extra-actions.php:34
+msgid "New crawl"
+msgstr "Нове сканування"
+
+#: includes/admin/templates/sitemap/sitemap-extra-actions.php:27
+msgid "Last crawl: %s"
+msgstr "Остання сканування: %s"
+
+#: includes/admin/templates/sitemap/sitemap-extra-actions.php:22
+#: includes/core/service/class-wds-checkup-service.php:141
+msgid "Never"
+msgstr "Ніколи"
+
+#: includes/admin/templates/sitemap/sitemap-common-settings.php:73
+#: includes/admin/templates/sitemap/sitemap-common-settings.php:116
+msgid "Enter one URL per line"
+msgstr "Введіть по одній URL-адресі у рядок"
+
+#: includes/admin/templates/sitemap/sitemap-common-settings.php:14
+msgid "Choose which post types, archives and taxonomies you wish to include in your sitemap."
+msgstr "Оберіть, які типи записів, архіви і таксономії ви бажаєте включити до мапи сайту."
+
+#: includes/admin/templates/sitemap/sitemap-common-settings.php:12
+msgid "Include"
+msgstr "Включати"
+
+#: includes/admin/templates/sitemap/sitemap-section-reporting.php:49
+msgid "Run regular URL crawls"
+msgstr "Запустити регулярні сканування URL-адрес"
+
+#: includes/admin/templates/sitemap/sitemap-section-advanced.php:75
+msgid "Automatic sitemap updates"
+msgstr "Автоматичні оновлення мапи сайту"
+
+#: includes/admin/templates/sitemap/sitemap-section-advanced.php:65
+msgid "Note: This doesn’t affect your SEO and is purely visual."
+msgstr "Примітка: Це не вплине на ваше SEO і є суто візуальним."
+
+#: includes/admin/templates/sitemap/sitemap-section-advanced.php:64
+msgid "Include stylesheet with sitemap"
+msgstr "Включити таблицю стилів для мапи сайту"
+
+#: includes/admin/templates/sitemap/sitemap-section-advanced.php:60
+msgid "Adds some nice styling to your sitemap."
+msgstr "Додає чудовий стиль мапі вашого сайту."
+
+#: includes/admin/templates/sitemap/sitemap-section-advanced.php:59
+msgid "Style sitemap"
+msgstr "Стилізувати мапу сайту"
+
+#: includes/admin/templates/sitemap/sitemap-section-advanced.php:29
+msgid "Auto-notify search engines"
+msgstr "Автоматично сповіщати пошукові системи"
+
+#: includes/admin/templates/sitemap/sitemap-section-advanced.php:19
+msgid "Note: When uploading attachments to posts, be sure to add titles and captions that clearly describe your images."
+msgstr "Примітка: Коли ви завантажуєте зображення у записи, переконайтесь що ви додали заголовки і підписи які чітко описують ваше зображення."
+
+#: includes/admin/templates/sitemap/sitemap-section-advanced.php:15
+msgid "If your posts contain imagery you would like others to be able to search, this setting will help Google Images index them correctly."
+msgstr "Якщо ваші записи містять зображення і ви бажаєте щоб інші мали змогу знайти їх, цей параметр допоможе Google Картинки правильно проіндексувати їх."
+
+#: includes/admin/templates/sitemap/sitemap-section-advanced.php:14
+msgid "Include images"
+msgstr "Включати зображення"
+
+#: includes/admin/templates/dashboard/dashboard-widget-advanced-tools.php:46
+#: includes/assets/js/build/wds-admin-autolinks.js:1
+#: includes/assets/js/components/redirects/redirect-modal.js:63
+#: includes/assets/js/components/redirects/redirects.js:71
+#: includes/assets/js/components/redirects/redirects.js:141
+msgid "Add Redirect"
+msgstr "Додати Перенаправлення"
+
+#: includes/admin/templates/sitemap/sitemap-no-crawler-data.php:11
+msgid "Begin Crawl"
+msgstr "Початок Сканування"
+
+#: includes/admin/templates/sitemap/sitemap-no-crawler-data.php:8
+msgid "issues that can reduce your ability to rank in search engines."
+msgstr "проблеми, які можуть знизити вашу позицію у пошукових системах."
+
+#: includes/admin/templates/sitemap/sitemap-no-crawler-data.php:7
+msgid "Have SmartCrawl check for broken URLs, 404s, multiple redirections and other harmful"
+msgstr "SmartCrawl перевіряє наявність пошкоджених URL-адрес, помилок 404, повторних перенаправлень і інших проблем."
+
+#: includes/admin/templates/sitemap/sitemap-crawl-stats.php:54
+msgid "Total URLs Discovered"
+msgstr "Всього знайдено URL-адрес"
+
+#: includes/admin/templates/checkup/checkup-results-inner.php:34
+#: includes/assets/js/build/wds-admin-sitemaps.js:1
+#: includes/assets/js/components/crawler/crawl-item-group.js:107
+msgid "Ignored"
+msgstr "Ігнорується"
+
+#: includes/admin/templates/sitemap/sitemap-buddypress-settings.php:33
+msgid "BuddyPress Profiles"
+msgstr "Профілі BuddyPress"
+
+#: includes/admin/templates/settings/settings-import-notice.php:11
+msgid "Settings successfully imported"
+msgstr "Налаштування успішно імпортовано"
+
+#: includes/admin/templates/settings/settings-section-general.php:27
+#: includes/admin/templates/settings/settings-sidenav.php:23
+#: includes/admin/templates/settings/settings.php:65
+msgid "User Roles"
+msgstr "Ролі Користувачів"
+
+#: includes/admin/templates/settings/settings-sidenav.php:11
+#: includes/admin/templates/settings/settings.php:43
+msgid "General Settings"
+msgstr "Загальні Налаштування"
+
+#: includes/admin/templates/settings/settings-section-user-roles.php:59
+msgid "Choose what user level gets to view the Moz data."
+msgstr "Оберіть, користувачі якого рівня будуть мати доступ до перегляду Moz-даних."
+
+#: includes/admin/templates/settings/settings-section-user-roles.php:58
+msgid "Show Moz data to roles"
+msgstr "Показувати Moz-дані для ролей:"
+
+#: includes/admin/templates/settings/settings-section-user-roles.php:37
+msgid "Choose what user level has the ability to add 301 redirects to individual posts and pages."
+msgstr "Оберіть, користувачі якого рівня будуть мати можливість додавати перенаправлення до окремих записів чи сторінок."
+
+#: includes/admin/templates/settings/settings-section-user-roles.php:36
+msgid "301 Redirections"
+msgstr "Перенаправлення 301"
+
+#: includes/admin/templates/settings/settings-section-user-roles.php:15
+msgid "Choose what user level you want to be able to edit individual post and page meta tags."
+msgstr "Оберіть, користувачам якого рівня буде дозволено редагувати мета-теги окремих постів та сторінок."
+
+#: includes/admin/templates/settings/settings-section-user-roles.php:14
+msgid "In page SEO meta box"
+msgstr "У SEO мета-блоці сторінки"
+
+#: includes/admin/templates/settings/settings-section-user-roles.php:9
+msgid "Access"
+msgstr "Доступ"
+
+#: includes/admin/templates/settings/settings-section-import-export.php:9
+msgid "Use this tool to import your SmartCrawl settings from another site."
+msgstr "Використовуйте цей інструмент для імпорту налаштувань SmartCrawl з іншого сайту."
+
+#: includes/admin/templates/settings/import-status-modal.php:3
+#: includes/admin/templates/settings/settings-section-import-export.php:8
+#: includes/admin/templates/settings/settings-section-import-export.php:26
+#: includes/admin/templates/settings/settings-section-import-export.php:39
+#: includes/admin/templates/settings/settings-sidenav.php:29
+#: includes/admin/templates/settings/settings.php:123
+msgid "Import"
+msgstr "Імпорт"
+
+#: includes/admin/templates/settings/settings-section-general.php:153
+msgid "Add Another"
+msgstr "Додати Ще"
+
+#: includes/admin/templates/settings/settings-section-general.php:135
+msgid "Have more meta tags you want to add? Add as many as you like."
+msgstr "Бажаєте додати більше мета-тегів? Ви можете додати їх стільки, скільки завгодно."
+
+#: includes/admin/templates/settings/settings-section-general.php:134
+msgid "Custom meta tags"
+msgstr "Користувацькі мета-теги"
+
+#: includes/admin/templates/settings/settings-section-general.php:99
+msgid "Bing Verification"
+msgstr "Перевірка Bing"
+
+#: includes/admin/templates/settings/settings-section-general.php:82
+msgid "Google Verification"
+msgstr "Перевірка Google"
+
+#: includes/admin/templates/settings/settings-section-general.php:74
+msgid "This tool will add the meta tags required by search engines to verify your site with their SEO management tools to your websites <head> tag."
+msgstr "Цей інструмент додасть у вміст тегу  <head> мета-теги необхідні пошуковим системам для перевірки вашого сайту їхніми інструментами керування SEO."
+
+#: includes/admin/templates/settings/settings-section-general.php:65
+msgid "Each meta tag type has recommended maximum characters lengths to follow. Turning this off will remove the enforcement preventing you from adding too many characters."
+msgstr "Кожен з типів мета-тегів має рекомендовану максимальну довжину, що вимірюється у символах. Відключення цієї опції вимкне примусове запобігання додаванню зайвих символів що перевищують цю довжину."
+
+#: includes/admin/templates/settings/settings-section-general.php:64
+msgid "Enforce meta tag character limits"
+msgstr "Забезпечити обмеження кількості символів у мета-тегах"
+
+#: includes/admin/templates/settings/settings-section-general.php:61
+msgid "WordPress automatically generates a canonical tag for your website, but in many cases this isn’t needed so you can turn it off to avoid any potential SEO ‘duplicate content’ backlash from search engines."
+msgstr "WordPress автоматично генерує канонічний тег для вашого веб-сайту, але, у більшості випадків у цьому немає необхідності, тому ви можете вимкнути його, щоб уникнути будь-якого потенціального попередження від пошукових систем про дубльований SEO вміст."
+
+#: includes/admin/templates/settings/settings-section-general.php:57
+msgid "It can be considered a security risk to have your WordPress version visible to the public, so we recommend you hide it."
+msgstr "Вважається потенційно небезпечним залишати версію WordPress видимою для всіх, тому ми рекомендуємо приховати її."
+
+#: includes/admin/templates/settings/settings-section-general.php:56
+msgid "Hide generator meta tag"
+msgstr "Сховати мета-тег генератора"
+
+#: includes/admin/templates/settings/settings-section-general.php:52
+msgid "Choose what SmartCrawl modules you want available to use."
+msgstr "Оберіть, які з модулів SmartCrawl ви б хотіли використовувати."
+
+#: includes/admin/templates/settings/settings-section-general.php:51
+msgid "Meta Tags"
+msgstr "Мета-Теги"
+
+#: includes/admin/templates/settings/settings-section-general.php:18
+msgid "Admin Bar"
+msgstr "Адміністративна Панель"
+
+#: includes/admin/templates/settings/settings-analysis.php:28
+msgid "Page Analysis"
+msgstr "Аналіз Сторінки"
+
+#: includes/admin/templates/settings/settings-section-general.php:38
+msgid "Choose which modules you would like to activate."
+msgstr "Оберіть, які модулі ви б хотіли активувати."
+
+#: includes/admin/templates/settings/settings-section-general.php:36
+msgid "Plugin Modules"
+msgstr "Модулі Плагіна"
+
+#: includes/admin/templates/settings/settings-custom-meta-tag.php:6
+msgid "Paste your meta tag here"
+msgstr "Вставте ваш мета-тег сюди"
+
+#: includes/admin/templates/report-vertical-tab.php:39
+#: includes/assets/js/build/wds-admin-sitemaps.js:1
+#: includes/assets/js/components/crawler/crawl-report.js:219
+#: includes/assets/js/components/crawler/crawl-report.js:232
+msgid "Ignore All"
+msgstr "Ігнорувати Все"
+
+#: includes/admin/templates/onpage/onpage-settings.php:240
+msgid "Customize your BuddyPress profile title, description and meta options."
+msgstr "Налаштуйте заголовок, опис і мета-параметри вашого BuddyPress профілю."
+
+#: includes/admin/templates/onpage/onpage-settings.php:228
+msgid "Customize your BuddyPress group title, description and meta options."
+msgstr "Налаштуйте заголовок, опис і мета-параметри вашої BuddyPress групи."
+
+#: includes/admin/templates/onpage/onpage-settings.php:163
+msgid "Google may see your date archives as duplicate content to your Blog Homepage. For this reason we recommend disabling date archives."
+msgstr "Google може розцінити ваші архіви по датах як контент дубльований з вашої головної сторінки. Тому, ми рекомендуємо відключення архівів дат."
+
+#: includes/admin/templates/onpage/onpage-settings.php:151
+msgid "If you are the only author of your website content Google may see your author archives as duplicate content to your Blog Homepage. If this is the case we recommend disabling author archives."
+msgstr "Якщо ви єдиний автор на вашому веб-сайті, Google може розцінити ваш авторській архів, як дублювання головної сторінки вашого блогу. У цьому випадку, ми рекомендуємо відключити авторські архіви."
+
+#: includes/admin/templates/onpage/onpage-settings.php:218
+#: includes/admin/templates/onpage/onpage-sidenav.php:20
+#: includes/admin/templates/schema/schema-section-advanced.php:154
+msgid "Archives"
+msgstr "Архіви"
+
+#: includes/admin/templates/onpage/onpage-settings.php:142
+#: includes/admin/templates/onpage/onpage-sidenav.php:16
+msgid "Taxonomies"
+msgstr "Таксономії"
+
+#: includes/admin/templates/onpage/onpage-settings.php:112
+#: includes/admin/templates/onpage/onpage-sidenav.php:12
+msgid "Post Types"
+msgstr "Типи Записів"
+
+#: includes/admin/templates/onpage/onpage-section-settings.php:30
+msgid "Enter custom separator"
+msgstr "Введіть власний розділювач"
+
+#: includes/admin/templates/onpage/onpage-section-settings.php:27
+msgid "Or, choose your own custom separator."
+msgstr "Або, оберіть ваш власний розділювач."
+
+#: includes/admin/templates/onpage/onpage-preview.php:26
+msgid "A preview of how your title and meta will appear in Google Search."
+msgstr "Попередній перегляд того як буде виглядати ваш заголовок та мета у Google Пошуку."
+
+#: includes/admin/templates/onpage/onpage-og-settings.php:9
+#: includes/admin/templates/onpage/onpage-section-buddypress-groups.php:18
+#: includes/admin/templates/onpage/onpage-section-buddypress-profile.php:18
+msgid "OpenGraph support enhances how your content appears when shared on social networks such as Facebook."
+msgstr "Підтримка OpenGraph покращує те, як ваш контент відображається при розповсюдженні соціальними мережами, такими як Facebook."
+
+#: includes/admin/templates/onpage/onpage-og-settings.php:7
+#: includes/admin/templates/social/social-section-open-graph.php:8
+#: includes/core/service/class-wds-checkup-result-processor.php:106
+msgid "Enable OpenGraph"
+msgstr "Увімкнути OpenGraph"
+
+#: includes/admin/templates/metabox/metabox-social-meta-tags-sub-settings.php:43
+#: includes/admin/templates/onpage/onpage-social-meta-tags-sub-settings.php:67
+msgid "Add featured image"
+msgstr "Додати обране зображення"
+
+#: includes/admin/templates/onpage/onpage-social-meta-tags-sub-settings.php:59
+msgid "Default Featured Images"
+msgstr "Обрані Зображення За Замовчуванням"
+
+#: includes/admin/templates/onpage/onpage-meta-robots.php:10
+msgid "Choose whether you want your website to appear in search results."
+msgstr "Оберіть, чи потрібно, щоб ваш веб-сайт відображався у результатах пошуку."
+
+#: includes/admin/templates/post-list/quick-edit-seo-analysis.php:5
+msgid "Focus keywords"
+msgstr "Фокусуючі ключові слова"
+
+#: includes/admin/templates/footer.php:71
+#: includes/admin/templates/metabox/metabox-social-twitter.php:20
+#: includes/admin/templates/term/term-social-tab.php:63
+msgid "Twitter"
+msgstr "Twitter"
+
+#: includes/admin/templates/metabox/metabox-social-meta-tags-sub-settings.php:66
+msgid "Each of these images will be available to use as the featured image when the post is shared."
+msgstr "Кожне з цих зображень буде доступне для використання як обране зображення при поширенні запису."
+
+#: includes/admin/templates/metabox/metabox-social-meta-tags-sub-settings.php:37
+msgid "Featured Images"
+msgstr "Обрані Зображення"
+
+#: includes/admin/templates/metabox/metabox-social-opengraph.php:21
+#: includes/admin/templates/term/term-social-tab.php:37
+msgid "OpenGraph is used on many social networks such as Facebook."
+msgstr "OpenGraph  використовується у багатьох соціальних мережах, таких як Facebook."
+
+#: includes/admin/templates/metabox/metabox-tab-social.php:3
+msgid "Customize this posts title, description and featured images for social shares. You can also configure the default settings for this post type in SmartCrawl's %s area."
+msgstr "Налаштуйте заголовок, опис і обране зображення цього запису для розповсюдження у соціальних мережах. Також, ви можете налаштувати стандартну параметри для цього типу записів в розділі %s SmartCrawl."
+
+#: includes/admin/templates/metabox/analysis-readability.php:92
+msgid "= 70+"
+msgstr "= 70+"
+
+#: includes/admin/templates/metabox/analysis-readability.php:89
+msgid "= 60 to 70"
+msgstr "= 60 до 70"
+
+#: includes/admin/templates/metabox/analysis-readability.php:89
+msgid "OK"
+msgstr "OK"
+
+#: includes/admin/templates/metabox/analysis-readability.php:86
+msgid "= Less than 60"
+msgstr "= Менше ніж 60"
+
+#: includes/admin/templates/metabox/metabox-tab-readability.php:8
+msgid "We’ve analyzed your content to see how readable it is for the average person. Suggestions are based on best practice, but only you can decide what works for you and your readers."
+msgstr "Ми проаналізували ваш контент, щоб зрозуміти наскільки він читабельний для пересічної людини. Рекомендації базуються на найкращих практиках, але лише ви вирішуєте що буде добре для вас і ваших читачів."
+
+#: includes/admin/templates/metabox/metabox-advanced-autolinks.php:20
+msgid "Enable automatic linking for this post"
+msgstr "Увімкнути автоматичні посилання для цього запису"
+
+#: includes/admin/templates/metabox/metabox-advanced-autolinks.php:11
+msgid "You can prevent this particular post from being auto-linked"
+msgstr "Ви можете заборонити автоматичне додання посилань до цього конкретного запису"
+
+#: includes/admin/templates/metabox/metabox-advanced-redirect.php:20
+msgid "Enter the URL to send traffic to including http:// or https://"
+msgstr "Введіть URL-адресу для направлення трафіку, включно з http:// або https://"
+
+#: includes/admin/templates/metabox/metabox-advanced-redirect.php:12
+msgid "Send visitors to this URL to another page."
+msgstr "Відправте відвідувачів цієї URL-адреси на іншу сторінку."
+
+#: includes/admin/templates/metabox/metabox-advanced-canonical.php:18
+#: includes/admin/templates/term/term-advanced-tab.php:77
+msgid "Enter the full canonical URL including http:// or https://"
+msgstr "Введіть повну канонічну URL-адресу, включно з http:// або https://"
+
+#: includes/admin/templates/metabox/metabox-advanced-canonical.php:10
+msgid "If you have several similar versions of this page you can point search engines to the canonical or \"genuine\" version to avoid duplicate content issues."
+msgstr "Якщо ви маєте кілька подібних версій цієї сторінки, ви можете вказати пошуковим системам на канонічну або \"справжню\" версію, щоб уникнути проблем з дубльованим контентом."
+
+#: includes/admin/templates/metabox/metabox-advanced-indexing.php:76
+msgid "Allows search engines to show a snippet of this page in the search results and prevents them from caching the page."
+msgstr "Дозволяє пошуковим системам показувати сніппет цієї сторінки в результатах пошуку та запобігає її кешуванню."
+
+#: includes/admin/templates/metabox/metabox-advanced-indexing.php:75
+msgid "Snippet"
+msgstr "Сніппет"
+
+#: includes/admin/templates/metabox/metabox-advanced-indexing.php:66
+msgid "Instructs search engines to store a cached version of this page."
+msgstr "Наказує пошуковим системам зберігати кешовану версію цієї сторінки."
+
+#: includes/admin/settings/schema.php:346
+#: includes/admin/templates/metabox/metabox-advanced-indexing.php:65
+msgid "Archive"
+msgstr "Архів"
+
+#: includes/admin/templates/metabox/metabox-advanced-indexing.php:46
+#: includes/admin/templates/metabox/metabox-advanced-indexing.php:55
+msgid "Tells search engines whether or not to follow the links on your page and crawl them too."
+msgstr "Каже пошуковим системам чи повинні вони слідувати посиланням на цій сторінці і сканувати їх."
+
+#: includes/admin/templates/metabox/metabox-advanced-indexing.php:27
+#: includes/admin/templates/metabox/metabox-advanced-indexing.php:36
+msgid "Instruct search engines whether or not you want this post to appear in search results."
+msgstr "Інформує пошукові системи чи потрібно відображати цей запис у результатах пошуку."
+
+#: includes/admin/templates/metabox/metabox-advanced-indexing.php:16
+msgid "Choose how search engines will index this particular page."
+msgstr "Оберіть, як пошукові системи повинні індексувати цю конкретну сторінку."
+
+#: includes/admin/templates/metabox/metabox-advanced-indexing.php:14
+#: includes/admin/templates/onpage/onpage-meta-robots.php:9
+#: includes/admin/templates/term/term-advanced-tab.php:13
+msgid "Indexing"
+msgstr "Індексування"
+
+#: includes/admin/templates/metabox/metabox-seo-analysis-container.php:66
+msgid "E.g. broken iphone screen"
+msgstr "Наприклад, зламаний екран iPhone "
+
+#: includes/admin/templates/metabox/metabox-seo-analysis-container.php:50
+msgid "Focus keyword"
+msgstr "Фокусуюче ключове слово"
+
+#: includes/admin/templates/metabox/metabox-seo-analysis-container.php:42
+msgid "This tool helps you optimize your content to give it the best chance of being found in search engines when people are looking for it. Start by choosing a few focus keywords that best describe your article, then SmartCrawl will give you recommendations to make sure your content is highly optimized."
+msgstr "Цей інструмент допоможе вам оптимізувати ваш вміст, що дасть йому найкращий шанс бути знайденим у пошукових системах коли люди шукатимуть це. Розпочніть з вибору кількох фокусуючих ключових слів, які найкраще описують вашу статтю, тоді SmartCrawl надасть вам рекомендації, щоб якомога краще оптимізувати ваш контент."
+
+#: includes/admin/templates/metabox/metabox-dummy-preview.php:2
+#: includes/admin/templates/metabox/underscore-google-preview.php:2
+#: includes/admin/templates/term/term-google-preview.php:15
+msgid "Google Preview"
+msgstr "Попередній перегляд Google"
+
+#: includes/admin/templates/metabox/metabox-meta-edit-form.php:17
+#: includes/admin/templates/term/term-meta-edit-form.php:15
+msgid "Edit Meta"
+msgstr "Редагувати Мета"
+
+#: includes/admin/templates/metabox/horizontal-tab-nav.php:10
+#: includes/core/class-wds-controller-analysis.php:226
+msgid "Readability"
+msgstr "Читабельність"
+
+#: includes/admin/templates/dashboard/dashboard-top-lighthouse.php:44
+#: includes/admin/templates/lighthouse/lighthouse-summary.php:45
+#: includes/admin/templates/metabox/horizontal-tab-nav.php:5
+#: includes/admin/templates/term/term-nav.php:7
+#: includes/core/class-wds-controller-analysis.php:223
+msgid "SEO"
+msgstr "SEO"
+
+#: includes/admin/templates/metabox/analysis-seo-analysis.php:16
+#: includes/core/class-wds-controller-analysis.php:284
+msgid "You need to add focus keywords to see recommendations for this article."
+msgstr "Щоб побачити рекомендації для цієї статті, ви повинні додати фокусуючі ключові слова."
+
+#: includes/admin/templates/metabox/metabox-readability-report-inner.php:81
+msgid "Try to use shorter sentences, with less difficult words to improve readability."
+msgstr "Щоб покращити читабельність, спробуйте використовувати коротші речення з менш складними словами."
+
+#: includes/admin/templates/metabox/metabox-readability-report-inner.php:79
+msgid "How to fix"
+msgstr "Як виправити"
+
+#: includes/admin/templates/metabox/metabox-readability-report-inner.php:58
+msgid "Score"
+msgstr "Оцінка"
+
+#: includes/admin/templates/metabox/metabox-readability-report-inner.php:53
+msgid "The Flesch-Kincaid readability tests are readability tests designed to indicate how difficult a passage in English is to understand. Here are the benchmarks."
+msgstr "Тест читабельності Флеша-Кінкейда - це тест розроблений для визначення того, наскільки важко зрозуміти написане англійською мовою. Ось ці критерії."
+
+#: includes/admin/templates/checkup/checkup-item.php:57
+#: includes/admin/templates/metabox/analysis-seo-analysis.php:76
+#: includes/admin/templates/metabox/metabox-readability-report-inner.php:27
+#: includes/assets/js/build/wds-admin-sitemaps.js:1
+#: includes/assets/js/components/crawler/crawl-item-sitemap.js:45
+#: includes/assets/js/components/crawler/crawl-item.js:68
+msgid "Restore"
+msgstr "Відновити"
+
+#: includes/admin/templates/metabox/metabox-readability-report-inner.php:16
+msgid "Flesch-Kincaid Test"
+msgstr "Тест Флеша-Кінкейда"
+
+#: includes/admin/templates/metabox/analysis-readability.php:61
+msgid "Readability score"
+msgstr "Оцінка читабельності"
+
+#: includes/admin/templates/metabox/metabox-meta-edit-form.php:42
+#: includes/admin/templates/metabox/metabox-readability-report-inner.php:59
+#: includes/admin/templates/metabox/metabox-social-meta-tags-sub-settings.php:27
+#: includes/admin/templates/onpage/onpage-general-settings-inner.php:49
+#: includes/admin/templates/onpage/onpage-general-settings-inner.php:54
+#: includes/admin/templates/onpage/onpage-social-meta-tags-sub-settings.php:41
+#: includes/admin/templates/post-list/meta-details.php:54
+#: includes/admin/templates/schema/schema-organization-settings.php:36
+#: includes/admin/templates/term/term-meta-edit-form.php:36
+#: includes/assets/js/build/wds-configs.js:1
+#: includes/assets/js/build/wds-schema-types.js:1
+#: includes/assets/js/components/configs/configs-tab.js:94
+#: includes/assets/js/components/schema/schema-properties/article/article-author.js:33
+#: includes/assets/js/components/schema/schema-properties/article/article.js:28
+#: includes/assets/js/components/schema/schema-properties/course/course-instance.js:20
+#: includes/assets/js/components/schema/schema-properties/course/course.js:21
+#: includes/assets/js/components/schema/schema-properties/event/event-performer-person.js:26
+#: includes/assets/js/components/schema/schema-properties/event/event.js:24
+#: includes/assets/js/components/schema/schema-properties/how-to/how-to.js:21
+#: includes/assets/js/components/schema/schema-properties/job-posting/job-posting.js:21
+#: includes/assets/js/components/schema/schema-properties/local-business/local-review-author-person.js:26
+#: includes/assets/js/components/schema/schema-properties/product/product-review.js:75
+#: includes/assets/js/components/schema/schema-properties/product/product.js:23
+#: includes/assets/js/components/schema/schema-properties/product/woo-product.js:24
+#: includes/assets/js/components/schema/schema-properties/recipe/recipe-author-person.js:24
+#: includes/assets/js/components/schema/schema-properties/recipe/recipe-video-basic.js:17
+#: includes/assets/js/components/schema/schema-properties/recipe/recipe.js:31
+#: includes/assets/js/components/schema/schema-properties/review/review-author-person.js:26
+#: includes/assets/js/components/schema/schema-properties/software-application/software-application.js:22
+#: includes/assets/js/components/schema/schema-properties/web-page/web-page.js:31
+#: includes/assets/js/components/schema/schema-properties/web-page/web-page.js:139
+#: includes/assets/js/components/schema/schema-sources/text-full.js:12
+msgid "Description"
+msgstr "Опис"
+
+#: includes/admin/templates/checkup/checkup-item.php:84
+#: includes/admin/templates/metabox/metabox-readability-report-inner.php:51
+#: includes/core/lighthouse/checks/class-wds-lighthouse-canonical-check.php:16
+#: includes/core/lighthouse/checks/class-wds-lighthouse-crawlable-anchors-check.php:17
+#: includes/core/lighthouse/checks/class-wds-lighthouse-document-title-check.php:29
+#: includes/core/lighthouse/checks/class-wds-lighthouse-font-size-check.php:17
+#: includes/core/lighthouse/checks/class-wds-lighthouse-hreflang-check.php:17
+#: includes/core/lighthouse/checks/class-wds-lighthouse-http-status-code-check.php:16
+#: includes/core/lighthouse/checks/class-wds-lighthouse-image-alt-check.php:17
+#: includes/core/lighthouse/checks/class-wds-lighthouse-is-crawlable-check.php:26
+#: includes/core/lighthouse/checks/class-wds-lighthouse-link-text-check.php:16
+#: includes/core/lighthouse/checks/class-wds-lighthouse-meta-description-check.php:16
+#: includes/core/lighthouse/checks/class-wds-lighthouse-plugins-check.php:17
+#: includes/core/lighthouse/checks/class-wds-lighthouse-robots-txt-check.php:17
+#: includes/core/lighthouse/checks/class-wds-lighthouse-structured-data-check.php:20
+#: includes/core/lighthouse/checks/class-wds-lighthouse-tap-targets-check.php:21
+#: includes/core/lighthouse/checks/class-wds-lighthouse-viewport-check.php:17
+#: includes/assets/js/build/wds-admin-sitemaps.js:1
+#: includes/assets/js/components/crawler/crawl-item-group.js:67
+msgid "Overview"
+msgstr "Огляд"
+
+#: includes/admin/templates/checkup/checkup-get-started.php:6
+#: includes/admin/templates/disabled-component.php:10
+#: includes/admin/templates/lighthouse/lighthouse-no-data.php:11
+msgid "Get Started"
+msgstr "Розпочати"
+
+#: includes/admin/templates/dashboard/dashboard-reports-free.php:18
+#: includes/admin/templates/disabled-component-inner.php:44
+#: includes/admin/templates/report-vertical-tab.php:44
+msgid "Upgrade to Pro"
+msgstr "Оновити до Pro версії"
+
+#: includes/admin/templates/dashboard/onboard-modal-footer.php:6
+msgid "Get started"
+msgstr "Розпочати"
+
+#: includes/admin/templates/dashboard/onboard-modal-header-button.php:9
+msgid "Skip"
+msgstr "Пропустити"
+
+#: includes/admin/templates/dashboard/onboard-modal-body.php:47
+msgid "Activating Sitemaps"
+msgstr "Активація Мапи Сайту"
+
+#: includes/admin/templates/dashboard/onboard-modal-body.php:44
+msgid "Sitemaps expose your site content to search engines and allow them to discover it more easily."
+msgstr "Мапи Сайту показують вміст вашого сайту пошуковим системам і дозволяють їм легко його знайти."
+
+#: includes/admin/templates/dashboard/onboard-modal-body.php:32
+msgid "Activating SEO & Readability Analysis"
+msgstr "Активація SEO аналізу і аналізу читабельності."
+
+#: includes/admin/templates/dashboard/onboard-modal-body.php:29
+msgid "Have your pages and posts analyzed for SEO and readability improvements to improve your search ranking"
+msgstr "Аналіз ваших сторінок і публікацій для оптимізації SEO та зручності читання і покращення рейтингу у пошуку."
+
+#: includes/admin/templates/dashboard/onboard-modal-body.php:28
+msgid "SEO & Readability Analysis"
+msgstr "Аналіз SEO і читабельності"
+
+#: includes/admin/templates/dashboard/onboard-modal-body.php:17
+msgid "Running a full SEO Checkup"
+msgstr "Запуск повної SEO Перевірки "
+
+#: includes/admin/templates/dashboard/onboard-modal-body.php:14
+msgid "Get a comprehensive checkup of your homepage and have the results emailed to your inbox."
+msgstr "Зробіть всебічну перевірку вашої головної сторінки і отримайте результати електронною поштою."
+
+#: includes/admin/templates/dashboard/onboarding.php:4
+msgid "Quick setup"
+msgstr "Швидке налаштування"
+
+#: includes/admin/templates/dashboard/onboard-progress.php:1
+msgid "Please wait a few moments while we activate those services"
+msgstr "Будь ласка, зачекайте кілька хвилин поки ми активуємо ці сервіси."
+
+#: includes/admin/templates/dashboard/dashboard-widget-social.php:92
+msgid "Verification tag added"
+msgstr "Тег перевірки додано"
+
+#: includes/admin/templates/dashboard/dashboard-widget-social.php:81
+#: includes/admin/templates/social/social-settings.php:67
+msgid "Verify your website with Pinterest to attribute your website when your website content is pinned to the platform."
+msgstr "Підтвердьте ваш сайт у Pinterest, щоб приписувати ваш веб-сайт коли його контент прикріплюється до платформи."
+
+#: includes/admin/templates/dashboard/dashboard-widget-social.php:77
+#: includes/admin/templates/social/social-settings.php:63
+#: includes/admin/templates/social/social-sidenav.php:17
+msgid "Pinterest Verification"
+msgstr "Перевірка Pinterest"
+
+#: includes/admin/templates/dashboard/dashboard-widget-social.php:57
+#: includes/admin/templates/social/social-section-twitter-cards.php:8
+msgid "With Twitter Cards, you can attach rich photos, videos and media experiences to Tweets, helping to drive traffic to your website."
+msgstr "З Картками Twitter, ви можете додавати фото, відео і медіа у твіти, це допоможе направити більше трафіку на ваш веб-сайт."
+
+#: includes/admin/templates/dashboard/dashboard-widget-social.php:54
+#: includes/admin/templates/social/social-section-twitter-cards.php:7
+#: includes/admin/templates/social/social-settings.php:46
+#: includes/admin/templates/social/social-sidenav.php:13
+msgid "Twitter Cards"
+msgstr "Картки Twitter"
+
+#: includes/admin/templates/dashboard/dashboard-widget-social.php:34
+#: includes/admin/templates/social/social-settings.php:33
+msgid "Add meta data to your pages to make them look great when shared platforms such as Facebook and other popular social networks."
+msgstr "Додайте мета-дані до ваших сторінок, щоб вони мали гарний вигляд під час розповсюдження соціальними мережами, такими як Facebook і інші популярні соціальні мережі."
+
+#: includes/admin/templates/dashboard/dashboard-widget-social.php:27
+msgid "Control and optimize how your website appears when shared on social platforms like Facebook and Twitter."
+msgstr "Контролюйте і оптимізуйте вигляд вашого веб-сайту коли його розповсюджують у соціальних мережах, таких як Facebook та Twitter."
+
+#: includes/admin/templates/dashboard/dashboard-widget-social.php:10
+msgid "Summary Card"
+msgstr "Підсумок Картки"
+
+#: includes/admin/templates/dashboard/dashboard-widget-social.php:10
+msgid "Summary Card with Large Image"
+msgstr "Підсумок Картки з Великим Зображенням"
+
+#: includes/admin/templates/dashboard/dashboard-widget-sitemap.php:118
+#: includes/admin/templates/dashboard/dashboard-widget-sitemap.php:133
+msgid "Automatically schedule SmartCrawl to run check for URLs that are missing from your Sitemap."
+msgstr "Налаштувати розклад SmartCrawl для автоматичних перевірок на URL-адреси які не увійшли у Мапу Сайту."
+
+#: includes/admin/templates/dashboard/dashboard-widget-sitemap.php:121
+msgid "Sitemaps must be activated"
+msgstr "Мапи Сайту повинні бути активовані"
+
+#: includes/admin/templates/dashboard/dashboard-widget-sitemap.php:106
+msgid "URL Crawler"
+msgstr "URL Сканер"
+
+#: includes/admin/templates/dashboard/dashboard-widget-sitemap.php:77
+msgid "Your sitemap is currently disabled. We highly recommend you enable this feature if you don’t already have a sitemap."
+msgstr "Ваша мапа сайту наразі вимкнена. Ми наполегливо рекомендуємо вам увімкнути цю опцію якщо ви ще не маєте мапи сайту."
+
+#: includes/admin/templates/dashboard/dashboard-widget-sitemap.php:71
+msgid "Enables an XML page that search engines will use to crawl and index your website pages."
+msgstr "Увімкнути XML-сторінку, яку пошукові системи використовуватимуть для сканування і індексації сторінок вашого веб-сайту."
+
+#: includes/admin/templates/dashboard/dashboard-widget-sitemap.php:19
+#: includes/admin/templates/sitemap/sitemap-smartcrawl.php:14
+msgid "Your sitemap is available at %s"
+msgstr "Ваша мапа сайту доступна %s"
+
+#: includes/admin/templates/dashboard/dashboard-widget-sitemap.php:50
+msgid "Automatically generate detailed sitemaps to tell search engines what content you want them to crawl and index."
+msgstr "Автоматично генеруйте деталізовану мапу сайту, щоб повідомити пошукові системи про те, який контент вони повинні сканувати і індексувати."
+
+#: includes/admin/templates/dashboard/dashboard-widget-seo-checkup.php:14
+msgid "Get a comprehensive report on how optimized your website is for search engines and social media. We recommend running this checkup first to see what needs improving."
+msgstr "Отримайте всебічний звіт про те, наскільки ваш веб-сайт оптимізований для пошукових систем та соціальних мереж. Ми рекомендуємо спочатку запустити цю перевірку щоб побачити що потребує покращення."
+
+#: includes/admin/templates/dashboard/dashboard-widget-onpage.php:32
+msgid "Public post types"
+msgstr "Публічні типи записів"
+
+#: includes/admin/templates/dashboard/dashboard-widget-onpage.php:27
+msgid "Latest Posts"
+msgstr "Останні Записи"
+
+#: includes/admin/templates/dashboard/dashboard-widget-onpage.php:27
+msgid "A Static Page"
+msgstr "Статична Сторінка"
+
+#: includes/admin/templates/dashboard/dashboard-widget-onpage.php:21
+msgid "Control how your website’s pages, posts and custom post types appear in search engines like Google and Bing."
+msgstr "Контролюйте те, як сторінки, записи і користувацькі типи записів вашого веб-сайту відображаються у пошукових системах, таких як Google та Bing."
+
+#: includes/admin/templates/dashboard/dashboard-widget-content-analysis.php:87
+msgid "Edit Posts"
+msgstr "Редагувати Запис"
+
+#: includes/admin/templates/dashboard/dashboard-widget-content-analysis.php:65
+msgid "Benchmarks the readability of your content for the average visitor and gives recommendations for improvement."
+msgstr "Оцінює рівень читабельність вашого контенту для пересічного відвідувача та дає рекомендації щодо вдосконалення."
+
+#: includes/admin/templates/dashboard/dashboard-widget-content-analysis.php:63
+#: includes/admin/templates/settings/settings-analysis.php:37
+msgid "Readability Analysis"
+msgstr "Аналіз Читабельності"
+
+#: includes/admin/templates/dashboard/dashboard-widget-content-analysis.php:42
+msgid "Analyses your content against recommend SEO practice and gives recommendations for improvement to make sure content is as optimized as possible."
+msgstr "Аналізує ваш контент згідно рекомендованих SEO практик і дає рекомендації щодо покращень, щоб максимально оптимізувати ваш контент."
+
+#: includes/admin/templates/dashboard/dashboard-widget-content-analysis.php:40
+#: includes/admin/templates/metabox/metabox-seo-analysis-container.php:15
+msgid "SEO Analysis"
+msgstr "SEO Аналіз"
+
+#: includes/admin/templates/dashboard/dashboard-widget-content-analysis.php:26
+msgid "Content Analysis"
+msgstr "Аналіз Контенту"
+
+#: includes/admin/templates/dashboard/dashboard-widget-advanced-tools.php:148
+msgid "Upgrade to Pro and automatically link your articles both internally and externally with automatic linking - a favourite among SEO pros."
+msgstr "Оновіть плагін до Pro версії, та автоматично зв'язуйте свої статті, як внутрішньо, так і зовнішньо з автоматичними посиланнями - улюблена функція серед SEO професіоналів."
+
+#: includes/admin/templates/dashboard/dashboard-widget-advanced-tools.php:135
+#: includes/admin/templates/dashboard/dashboard-widget-onpage.php:46
+#: includes/admin/templates/dashboard/dashboard-widget-schema.php:59
+#: includes/admin/templates/dashboard/dashboard-widget-sitemap.php:146
+#: includes/admin/templates/dashboard/dashboard-widget-social.php:105
+#: includes/admin/templates/lighthouse/lighthouse-reporting.php:42
+msgid "Configure"
+msgstr "Налаштувати"
+
+#: includes/admin/templates/dashboard/dashboard-widget-advanced-tools.php:109
+#: includes/admin/templates/dashboard/dashboard-widget-schema.php:33
+#: includes/admin/templates/dashboard/dashboard-widget-schema.php:48
+#: includes/admin/templates/dashboard/dashboard-widget-social.php:48
+#: includes/core/configs/class-wds-config-model.php:101
+#: includes/core/configs/class-wds-config-model.php:110
+#: includes/core/configs/class-wds-config-model.php:131
+#: includes/core/configs/class-wds-config-model.php:158
+msgid "Active"
+msgstr "Аквтивно"
+
+#: includes/admin/templates/dashboard/dashboard-widget-advanced-tools.php:64
+msgid "Moz provides reports that tell you how your site stacks up against the competition with all of the important SEO measurement tools."
+msgstr "Moz надає звіти, які покажуть вам, як ваш сайт співвідноситься з конкурентами згідно з усіма важливими інструментами для оцінки SEO."
+
+#: includes/admin/templates/dashboard/dashboard-widget-advanced-tools.php:54
+msgid "Moz Integration"
+msgstr "Інтеграція Moz"
+
+#: includes/admin/templates/dashboard/dashboard-widget-advanced-tools.php:39
+msgid "URL Redirects"
+msgstr "Перенаправлення URL-адрес"
+
+#: includes/admin/templates/dashboard/dashboard-widget-advanced-tools.php:36
+msgid "Advanced tools focus on the finer details of SEO including internal linking, redirections and Moz analysis."
+msgstr "Додаткові інструменти зосереджені на більш тонких нюансах SEO, включаючи внутрішні посилання, перенаправлення і Moz-аналіз."
+
+#: includes/admin/templates/checkup/checkup-top.php:95
+#: includes/admin/templates/dashboard/dashboard-url-crawl-stats.php:32
+msgid "No issues"
+msgstr "Проблем немає"
+
+#: includes/admin/templates/dashboard/dashboard-top-sitemap-list-item.php:16
+#: includes/admin/templates/dashboard/dashboard-url-crawl-no-data-small.php:3
+msgid "No Data Available"
+msgstr "Немає Доступних Даних"
+
+#: includes/admin/templates/dashboard/dashboard-url-crawl-in-progress-small.php:3
+msgid "Crawl in progress ..."
+msgstr "Сканування триває..."
+
+#: includes/admin/templates/dashboard/dashboard-top.php:55
+msgid "Run your first SEO checkup to see what needs improving!"
+msgstr "Запустіть вашу першу SEO-перевірку, щоб побачити що потребує покращення!"
+
+#: includes/admin/templates/dashboard/dashboard-top-lighthouse.php:63
+#: includes/admin/templates/dashboard/dashboard-top.php:46
+#: includes/admin/templates/dashboard/dashboard-top.php:53
+msgid "Welcome!"
+msgstr "Ласкаво просимо!"
+
+#: includes/admin/templates/dashboard/dashboard-mini-lighthouse-report.php:50
+msgid "Automatic checkups are enabled"
+msgstr "Автоматичні перевірки увімкнено!"
+
+#: includes/admin/templates/dashboard/dashboard-mini-checkup-report.php:33
+#: includes/admin/templates/dashboard/dashboard-mini-lighthouse-report.php:45
+#: includes/admin/templates/dashboard/dashboard-widget-advanced-tools.php:60
+msgid "View Report"
+msgstr "Переглянути Звіт"
+
+#: includes/admin/templates/dashboard/dashboard-mini-checkup-report.php:21
+msgid "You have no outstanding SEO issues. Awesome work!"
+msgstr "У вас немає не вирішених проблем у SEO. Чудова робота!"
+
+#: includes/admin/templates/dashboard/dashboard-mini-checkup-report.php:12
+#: includes/admin/templates/dashboard/dashboard-mini-checkup-report.php:18
+msgid "A comprehensive report on how optimized your website is for search engines and social media."
+msgstr "Всебічний звіт про те, наскільки ваш веб-сайт оптимізовано для пошукових систем та соціальних мереж."
+
+#: includes/admin/templates/dashboard/dashboard-content-analysis-seo-overview.php:45
+msgid "Overall SEO Analysis"
+msgstr "Загальний SEO Аналіз"
+
+#: includes/admin/templates/dashboard/dashboard-content-analysis-seo-overview.php:38
+#: includes/admin/templates/dashboard/dashboard-content-analysis-seo-overview.php:69
+msgid "Poor"
+msgstr "Низький"
+
+#: includes/admin/templates/dashboard/dashboard-content-analysis-seo-overview.php:34
+#: includes/admin/templates/dashboard/dashboard-content-analysis-seo-overview.php:70
+#: includes/admin/templates/post-list/post-seo-analysis-good.php:2
+#: includes/core/class-wds-controller-analysis.php:584
+msgid "Good"
+msgstr "Хороший"
+
+#: includes/admin/templates/dashboard/dashboard-content-analysis-readability-overview.php:77
+msgid "Okay"
+msgstr "Гаразд"
+
+#: includes/admin/templates/dashboard/dashboard-content-analysis-readability-overview.php:68
+#: includes/admin/templates/dashboard/dashboard-content-analysis-seo-overview.php:61
+msgid "Here's a breakdown of where you can make improvements."
+msgstr "Ось розбивка того, де ви можете зробити покращення."
+
+#: includes/admin/templates/dashboard/dashboard-content-analysis-readability-overview.php:49
+msgid "Overall Readability Analysis"
+msgstr "Загальний Аналіз Читабельності"
+
+#: includes/admin/templates/dashboard/dashboard-content-analysis-readability-overview.php:38
+#: includes/admin/templates/dashboard/dashboard-content-analysis-readability-overview.php:42
+#: includes/admin/templates/dashboard/dashboard-content-analysis-readability-overview.php:76
+#: includes/admin/templates/metabox/analysis-readability.php:86
+#: includes/core/class-wds-model-analysis.php:270
+msgid "Difficult"
+msgstr "Складно"
+
+#: includes/admin/templates/dashboard/dashboard-content-analysis-readability-overview.php:34
+#: includes/admin/templates/dashboard/dashboard-content-analysis-readability-overview.php:78
+#: includes/admin/templates/metabox/analysis-readability.php:92
+#: includes/core/class-wds-model-analysis.php:268
+msgid "Easy"
+msgstr "Легко"
+
+#: includes/admin/templates/dashboard/dashboard-content-analysis-readability-overview.php:30
+#: includes/admin/templates/dashboard/dashboard-content-analysis-seo-overview.php:30
+msgid "No data yet"
+msgstr "Даних ще немає"
+
+#: includes/admin/templates/dashboard/dashboard-checkup-progress.php:5
+msgid "SmartCrawl is performing a full SEO checkup which will take a few moments. You can close this page if you need to, we’ll let you know when it’s complete."
+msgstr "SmartCrawl виконує повну SEO-перевірку, це може зайняти кілька хвилин. Якщо потрібно, ви можете закрити цю сторінку, ми повідомимо вас, коли вона закінчиться."
+
+#: includes/admin/templates/checkup/checkup-top.php:157
+#: includes/assets/js/build/wds-admin-sitemaps.js:1
+#: includes/assets/js/components/sitemaps/news-sitemap-tab.js:70
+msgid "Disable"
+msgstr "Вимкнути"
+
+#: includes/admin/templates/checkup/checkup-top.php:152
+#: includes/assets/js/build/wds-admin-sitemaps.js:1
+#: includes/assets/js/components/sitemaps/news-sitemap-tab.js:69
+msgid "Enable"
+msgstr "Увімкнути"
+
+#: includes/admin/templates/checkup/checkup-top.php:89
+msgid "SEO Issues"
+msgstr "Проблеми SEO"
+
+#: includes/admin/templates/dashboard/dashboard-top.php:74
+msgid "Current SEO Score"
+msgstr "Поточна оцінка SEO"
+
+#: includes/admin/templates/dashboard/dashboard-top-sitemap-list-item.php:35
+#: includes/admin/templates/sitemap/sitemap-disabled.php:11
+msgid "Activate Sitemap"
+msgstr "Активувати Мапу Сайту"
+
+#: includes/admin/templates/sitemap/sitemap-disabled.php:7
+msgid "SmartCrawl to automatically check URLs are discoverable by search engines."
+msgstr "SmartCrawl для автоматичних перевірок чи URL-адреси можуть бути знайдені у пошукових системах."
+
+#: includes/admin/templates/sitemap/sitemap-disabled.php:6
+msgid "Automatically generate a full sitemap, regularly send updates to search engines and set up"
+msgstr "Автоматично генерувати повну мапу сайту, регулярно надсилати і налаштовувати оновлення в пошукових системах"
+
+#: includes/admin/templates/checkup/checkup-settings-inner.php:38
+#: includes/admin/templates/checkup/checkup-side-nav.php:23
+#: includes/admin/templates/lighthouse/lighthouse-reporting-tab.php:9
+#: includes/admin/templates/lighthouse/lighthouse-side-nav.php:23
+#: includes/admin/templates/sitemap/sitemap-settings.php:140
+#: includes/admin/templates/sitemap/sitemap-side-nav.php:37
+msgid "Reporting"
+msgstr "Звітування"
+
+#: includes/admin/templates/checkup/checkup-header-actions.php:9
+#: includes/admin/templates/dashboard/dashboard-top.php:60
+#: includes/admin/templates/dashboard/dashboard-widget-seo-checkup.php:51
+#: includes/admin/templates/dashboard/dashboard-widget-seo-checkup.php:76
+msgid "Run checkup"
+msgstr "Запустити перевірку"
+
+#: includes/admin/templates/reporting-tod-select.php:19
+msgid "Time of day"
+msgstr "Час доби"
+
+#: includes/admin/templates/reporting-dow-select.php:33
+msgid "Day of the week"
+msgstr "День тижня"
+
+#: includes/admin/templates/checkup/checkup-reporting.php:49
+msgid "Enable regular checkups"
+msgstr "Увімкнути регулярні перевірки"
+
+#: includes/admin/templates/checkup/checkup-reporting.php:37
+msgid "Schedule automatic checkups"
+msgstr "Запланувати автоматичні перевірки"
+
+#: includes/admin/templates/sitemap/sitemap-section-reporting.php:67
+msgid "- Try it all FREE today"
+msgstr "- Спробуйте це все БЕЗКОШТОВНО сьогодні"
+
+#: includes/admin/templates/metabox/analysis-seo-analysis.php:108
+msgid "More Info"
+msgstr "Більше Інформації"
+
+#: includes/admin/templates/metabox/analysis-seo-analysis.php:99
+msgid "Recommendation"
+msgstr "Рекомендації"
+
+#: includes/admin/templates/checkup/checkup-checkup-results.php:9
+msgid "Here are your outstanding SEO issues. We recommend actioning as many as possible to ensure your site is as search engine and social media friendly as possible."
+msgstr "Ось ваші невирішені проблеми з SEO. Ми радимо максимально реагувати на це, щоб забезпечити максимальну дружність з пошуковими системами та соціальними мережами."
+
+#: includes/admin/templates/advanced-tools/advanced-tools-settings.php:102
+msgid "Automatically redirect traffic from one URL to another. Use this tool if you have changed a page’s URL and wish to keep traffic flowing to the new page."
+msgstr "Автоматично перенаправляйте трафік з однієї URL-адреси до іншої. Використовуйте цей інструмент, якщо ви змінили адресу сторінки і бажаєте зберегти потік відвідувачів до нової сторінки."
+
+#: includes/admin/templates/advanced-tools/advanced-side-nav.php:13
+#: includes/admin/templates/advanced-tools/advanced-tools-settings.php:98
+msgid "URL Redirection"
+msgstr "Перенаправлення URL-адрес"
+
+#: includes/admin/templates/advanced-tools/advanced-tools-settings.php:71
+#: includes/admin/templates/dashboard/dashboard-widget-advanced-tools.php:97
+#: includes/admin/templates/metabox/metabox-advanced-autolinks.php:8
+msgid "Automatic Linking"
+msgstr "Автоматичні Посилання"
+
+#: includes/admin/templates/advanced-tools/advanced-section-automatic-linking.php:41
+msgid "Adds the nofollow meta tag to autolinks to prevent search engines following those URLs when crawling your website."
+msgstr "Додає мета-тег nofollow до автоматичних посилань, щоб заборонити пошуковим системам слідувати цим URL-адресам при скануванні вашого веб-сайту."
+
+#: includes/admin/templates/advanced-tools/advanced-section-automatic-linking.php:40
+msgid "Nofollow autolinks"
+msgstr "Не слідувати автоматичним посиланням"
+
+#: includes/admin/templates/advanced-tools/advanced-section-automatic-linking.php:37
+msgid "Adds the target=“_blank” tag to links to open a new tab when clicked."
+msgstr "Додає target=“_blank” до посилань, щоб вони відкривались у новій вкладці при натисканні."
+
+#: includes/admin/templates/advanced-tools/advanced-section-automatic-linking.php:29
+msgid "Only autolink the exact string match."
+msgstr "Автоматично додавати посилання тільки при точному співпадінні."
+
+#: includes/admin/templates/advanced-tools/advanced-section-automatic-linking.php:25
+msgid "Autolinking will also occur in RSS feeds."
+msgstr "Автоматичні поссилання також з'являться у стрічці RSS."
+
+#: includes/admin/templates/advanced-tools/advanced-section-automatic-linking.php:17
+msgid "Excludes headings from autolinking."
+msgstr "Виключити заголовки з автоматичних посилань."
+
+#: includes/admin/templates/advanced-tools/advanced-section-automatic-linking.php:13
+msgid "Allows autolinking to taxonomies that have no posts assigned to them."
+msgstr "Дозволити автоматичні посилання на таксономії що не мають жодних записів назначених для них."
+
+#: includes/admin/templates/advanced-tools/advanced-tools-settings.php:60
+msgid "SmartCrawl will look for keywords that match posts/pages around your website and automatically link them. Specify what post types you want to include in this tool, and what post types you want those to automatically link to."
+msgstr "SmartCrawl шукатиме ключові слова що відповідають записам/сторінкам на вашому сайті і автоматично додасть посилання на них. Визначте, які типи записів ви бажаєте включити до цього інструменту, і до яких типів записів ви хочете їх прив'язати."
+
+#: includes/admin/templates/advanced-tools/advanced-section-redirect-settings.php:41
+msgid "Select the redirection type that you would like to be used as default."
+msgstr "Оберіть тип перенаправлення, який ви бажаєте використовувати за замовчуванням."
+
+#: includes/admin/templates/advanced-tools/advanced-section-redirect-settings.php:17
+msgid "Redirect attachments to their parent post, preventing them from appearing in SERPs."
+msgstr "Перенаправляти додатки до їх батьківських записів, щоб запобігти їх появі у результатах пошуку пошукових систем."
+
+#: includes/admin/templates/advanced-tools/advanced-section-redirect-settings.php:14
+#: includes/admin/templates/advanced-tools/advanced-section-redirect-settings.php:27
+msgid "Redirect attachments"
+msgstr "Перенаправити додатки"
+
+#: includes/admin/templates/advanced-tools/advanced-section-moz.php:81
+msgid "Reset API Credentials"
+msgstr "Скинути облікові дані API"
+
+#: includes/admin/templates/advanced-tools/advanced-section-moz.php:78
+msgid "Here’s how your site stacks up against the competition as defined by Moz. You can also see individual stats per post in the post editor under the Moz module."
+msgstr "Ось яке місце посідає ваш сайт серед конкурентів згідно з Moz. Ви також можете побачити індивідуальну статистику для кожного запису у редакторі запису в модулі Moz."
+
+#: includes/admin/templates/advanced-tools/advanced-section-moz.php:60
+#: includes/admin/templates/dashboard/dashboard-widget-advanced-tools.php:70
+#: includes/admin/templates/dashboard/dashboard-widget-social.php:88
+msgid "Connect"
+msgstr "Підключити"
+
+#: includes/admin/templates/advanced-tools/advanced-section-moz.php:53
+msgid "Enter your Moz Secret Key"
+msgstr "Введіть ваш Секретний Ключ Moz"
+
+#: includes/admin/templates/advanced-tools/advanced-section-moz.php:41
+msgid "Enter your Moz Access ID"
+msgstr "Введіть ID Доступу Moz"
+
+#: includes/admin/templates/advanced-tools/advanced-section-moz.php:29
+msgid "Connect your Moz account. You can get the API credentials %s."
+msgstr "Під'єднайте ваш обліковий запис Moz. Ви можете отримати облікові дані API %s."
+
+#: includes/admin/templates/advanced-tools/advanced-section-automatic-linking-main.php:27
+msgid "Provide a comma-separated list of keywords that you would like to exclude. You can also select individual posts for exclusion."
+msgstr "Надайте розділений комами список ключових слів які ви бажаєте виключити. Ви можете також виділити окремі пости для виключення."
+
+#: includes/admin/templates/advanced-tools/advanced-section-automatic-linking-main.php:26
+#: includes/admin/templates/sitemap/sitemap-common-settings.php:81
+msgid "Exclusions"
+msgstr "Виключення"
+
+#: includes/admin/templates/advanced-tools/advanced-automatic-linking-types.php:12
+msgid "Insert Links"
+msgstr "Вставити Посилання"
+
+#: includes/admin/templates/advanced-tools/advanced-section-automatic-linking-settings.php:69
+msgid "Configure extra settings for absolute control over autolinking."
+msgstr "Налаштувати додаткові параметри для абсолютного контролю над авто-посиланнями."
+
+#: includes/admin/templates/advanced-tools/advanced-section-automatic-linking-settings.php:68
+msgid "Optional Settings"
+msgstr "Необов'язкові Налаштування"
+
+#: includes/admin/templates/advanced-tools/advanced-section-automatic-linking-settings.php:56
+msgid "Per keyword group"
+msgstr "За групою ключових слів"
+
+#: includes/admin/templates/advanced-tools/advanced-section-automatic-linking-settings.php:48
+msgid "Per post total"
+msgstr "Всього за запис"
+
+#: includes/admin/templates/advanced-tools/advanced-section-automatic-linking-settings.php:42
+msgid "Set the max amount of links you want to appear per post."
+msgstr "Визначте максимальну кількість посилань, яку ви бажаєте мати на запис."
+
+#: includes/admin/templates/advanced-tools/advanced-section-automatic-linking-settings.php:41
+msgid "Max limits"
+msgstr "Максимальні обмеження"
+
+#: includes/admin/templates/advanced-tools/advanced-section-automatic-linking-settings.php:35
+msgid "We recommend a minimum of 10 chars for each type."
+msgstr "Ми рекомендуємо як мінімум 10 символів для кожного типу."
+
+#: includes/admin/templates/advanced-tools/advanced-section-automatic-linking-settings.php:29
+msgid "Archives & taxonomies"
+msgstr "Архіви і таксономії"
+
+#: includes/admin/templates/advanced-tools/advanced-section-automatic-linking-settings.php:21
+msgid "Posts & pages"
+msgstr "Записи і сторінки"
+
+#: includes/admin/templates/advanced-tools/advanced-section-automatic-linking-settings.php:15
+msgid "Define the shortest title and taxonomy length to autolink. Smaller titles will be ignored."
+msgstr "Визначте найкоротший заголовок і довжину таксономії для авто-посилань. Коротші заголовки будуть проігноровані."
+
+#: includes/admin/templates/advanced-tools/advanced-section-automatic-linking-settings.php:14
+msgid "Min lengths"
+msgstr "Мінімальна довжина"
+
+#: includes/admin/templates/advanced-tools/underscore-postlist-exclusion.php:7
+#: includes/admin/templates/dashboard/dashboard-content-analysis-readability-overview.php:75
+#: includes/admin/templates/dashboard/dashboard-content-analysis-seo-overview.php:68
+#: includes/assets/js/build/wds-schema-types.js:1
+#: includes/assets/js/components/schema/schema-type-condition.js:163
+msgid "Post Type"
+msgstr "Тип Запису"
+
+#: includes/admin/templates/advanced-tools/underscore-postlist-exclusion.php:6
+#: includes/admin/templates/advanced-tools/underscore-postlist-selector-body.php:27
+msgid "Post"
+msgstr "Запис"
+
+#: includes/admin/templates/advanced-tools/advanced-tools-redirect-item.php:36
+#: includes/assets/js/build/wds-admin-autolinks.js:1
+#: includes/assets/js/components/redirects/redirect-item.js:40
+msgid "Remove"
+msgstr "Видалити"
+
+#: includes/admin/templates/add-email-recipient-modal-footer.php:14
+#: includes/admin/templates/advanced-tools/underscore-postlist-selector-footer.php:6
+#: includes/assets/js/build/wds-schema-types.js:1
+#: includes/assets/js/components/schema/add-schema-type-wizard-modal.js:545
+#: includes/assets/js/components/schema/schema-builder.js:756
+msgid "Add"
+msgstr "Додати"
+
+#: includes/admin/templates/add-email-recipient-modal-footer.php:8
+#: includes/admin/templates/advanced-tools/underscore-postlist-selector-footer.php:3
+#: includes/admin/templates/settings/underscore-import-error.php:11
+#: includes/admin/templates/sitemap/sitemap-switch-to-native-modal-body.php:5
+#: includes/admin/templates/sitemap/sitemap-switch-to-smartcrawl-modal-body.php:5
+#: includes/assets/js/build/wds-admin-autolinks.js:1
+#: includes/assets/js/build/wds-admin-settings.js:1
+#: includes/assets/js/build/wds-admin-sitemaps.js:1
+#: includes/assets/js/build/wds-configs.js:1
+#: includes/assets/js/build/wds-schema-types.js:1
+#: includes/assets/js/components/autolinks/custom-keyword-modal.js:65
+#: includes/assets/js/components/box-selector-modal.js:81
+#: includes/assets/js/components/configs/config-apply-modal.js:25
+#: includes/assets/js/components/configs/config-delete-modal.js:27
+#: includes/assets/js/components/configs/config-save-modal.js:98
+#: includes/assets/js/components/crawler/crawl-item-redirect-modal.js:71
+#: includes/assets/js/components/redirects/bulk-update-redirects-modal.js:71
+#: includes/assets/js/components/redirects/redirect-modal.js:97
+#: includes/assets/js/components/schema/schema-builder.js:712
+#: includes/assets/js/components/schema/schema-builder.js:1131
+#: includes/assets/js/components/schema/schema-builder.js:1226
+#: includes/assets/js/components/schema/schema-type-rename-modal.js:50
+#: includes/assets/js/components/settings/data-reset-modal.js:50
+#: includes/assets/js/components/settings/multisite-reset-modal.js:87
+msgid "Cancel"
+msgstr "Відмінити"
+
+#: includes/admin/templates/settings/settings-section-general.php:60
+msgid "Hide redundant canonical link tags"
+msgstr "Приховати надликшові теги канонічних посилань"
+
+#: includes/admin/templates/checkup/checkup-item.php:112
+#: includes/admin/templates/metabox/analysis-seo-analysis.php:123
+#: includes/admin/templates/metabox/metabox-readability-report-inner.php:91
+#: includes/assets/js/build/wds-admin-sitemaps.js:1
+#: includes/assets/js/components/crawler/crawl-item-sitemap.js:38
+#: includes/assets/js/components/crawler/crawl-item.js:59
+msgid "Ignore"
+msgstr "Ігнорувати"
+
+#. Author of the plugin
+#: includes/admin/templates/emails/email-footer.php:30
+#: includes/core/class-wds-controller-plugin-links.php:50
+msgid "WPMU DEV"
+msgstr "WPMU DEV"
+
+#. Description of the plugin
+msgid "Every SEO option that a site requires, in one easy bundle."
+msgstr "Кожен параметр SEO, який необхідний для сайту, в одному простому пакеті."
+
+#: includes/admin/templates/advanced-tools/advanced-robots-disabled.php:30
+#: includes/admin/templates/advanced-tools/advanced-tools-settings.php:53
+#: includes/admin/templates/dashboard/dashboard-widget-advanced-tools.php:91
+#: includes/admin/templates/dashboard/dashboard-widget-advanced-tools.php:121
+#: includes/admin/templates/dashboard/dashboard-widget-content-analysis.php:51
+#: includes/admin/templates/dashboard/dashboard-widget-content-analysis.php:74
+#: includes/admin/templates/dashboard/dashboard-widget-onpage.php:55
+#: includes/admin/templates/dashboard/dashboard-widget-schema.php:78
+#: includes/admin/templates/dashboard/dashboard-widget-sitemap.php:87
+#: includes/admin/templates/dashboard/dashboard-widget-social.php:43
+#: includes/admin/templates/dashboard/dashboard-widget-social.php:65
+#: includes/admin/templates/dashboard/dashboard-widget-social.php:114
+#: includes/admin/templates/onpage/onpage-disabled.php:9
+#: includes/admin/templates/schema/schema-disabled.php:9
+#: includes/admin/templates/social/social-disabled.php:9
+msgid "Activate"
+msgstr "Активувати"
+
+#: includes/core/class-wds-model-user.php:132
+msgid "Anonymous"
+msgstr "Анонімний"
+
+#: includes/core/class-wds-logger.php:79
+msgid "Error (critical issue)"
+msgstr "Помилка (критична проблема)"
+
+#: includes/core/class-wds-logger.php:78
+msgid "Warning (something non-critical went wrong)"
+msgstr "Попередження (щось не критичне пішло не так)"
+
+#: includes/core/class-wds-logger.php:77
+msgid "Notice (attention might be needed)"
+msgstr "Сповіщення (може знадобитись ваша увага)"
+
+#: includes/core/class-wds-logger.php:76
+msgid "Info (verbose informal data)"
+msgstr "Інформація (докладні інформаційні дані)"
+
+#: includes/core/class-wds-logger.php:75
+msgid "Debug (verbose procedural data)"
+msgstr "Налагодження (докладні процедурні дані)"
+
+#: includes/admin/templates/settings/settings-section-general.php:113
+msgid "Add verification code to"
+msgstr "Додати код перевірки до"
+
+#: includes/admin/templates/advanced-tools/advanced-section-redirect-settings.php:38
+msgid "Default Redirection Type"
+msgstr "Тип Перенаправлення За Замовчуванням"
+
+#: includes/admin/templates/settings/settings.php:12
+msgid "SmartCrawl Settings"
+msgstr "Налаштування SmartCrawl"
+
+#: includes/admin/templates/seomoz-dashboard-widget.php:61
+msgid "Measure of the mozRank %s of the homepage URL in the Linkscape index"
+msgstr "Вимірюйте mozRank %s URL-адреси домашньої сторінки в індексі Linkscape"
+
+#: includes/admin/templates/seomoz-dashboard-widget.php:51
+msgid "The number of internal and external, juice and non-juice passing links %s to the target URL in the Linkscape index"
+msgstr "Кількість внутрішніх і зовнішніх посилань %s на цільову URL-адресу в індексі Linkscape."
+
+#: includes/admin/templates/seomoz-dashboard-widget.php:41
+msgid "The number of external (from other subdomains), juice passing links %s to the target URL in the Linkscape index"
+msgstr "Кількість зовнішніх (з інших субдоменів) посилань що передаються вагу %s цільовій URL-адресі в індексі Linkscape."
+
+#: includes/admin/templates/seomoz-dashboard-widget.php:16
+msgid "Measure of the mozRank %s of the domain in the Linkscape index"
+msgstr "Вимірюйте mozRank %s домену в індексі Linkscape"
+
+#: includes/admin/templates/advanced-tools/advanced-section-redirect-settings.php:8
+msgid "Temporary (302)"
+msgstr "Тимчасове (302)"
+
+#: includes/admin/templates/advanced-tools/advanced-section-redirect-settings.php:7
+msgid "Permanent (301)"
+msgstr "Постійне (301)"
+
+#: includes/admin/templates/advanced-tools/underscore-postlist-selector-body.php:13
+#: includes/assets/js/build/wds-schema-types.js:1
+#: includes/assets/js/components/schema/schema-properties/book/book-edition.js:111
+msgid "Type"
+msgstr "Тип"
+
+#: includes/admin/templates/onpage/onpage-macros-modal.php:32
+#: includes/admin/templates/onpage/onpage-macros-modal.php:38
+msgid "Gets Replaced By"
+msgstr "Замінюється на"
+
+#: includes/admin/templates/metabox/metabox-social-meta-tags-sub-settings.php:16
+#: includes/admin/templates/onpage/onpage-general-settings-inner.php:22
+#: includes/admin/templates/onpage/onpage-macros-modal.php:37
+#: includes/admin/templates/onpage/onpage-social-meta-tags-sub-settings.php:26
+#: includes/admin/templates/post-list/meta-details.php:42
+#: includes/assets/js/build/wds-schema-types.js:1
+#: includes/assets/js/components/schema/schema-properties/job-posting/job-posting.js:12
+msgid "Title"
+msgstr "Заголовок"
+
+#: includes/admin/templates/onpage/onpage-settings.php:25
+msgid "Supported Macros"
+msgstr "Макроси Що Підтримуються"
+
+#: includes/admin/templates/onpage/onpage-header-actions.php:5
+msgid "Browse Macros"
+msgstr "Переглянути Макроси"
+
+#: includes/admin/templates/dashboard/dashboard-widget-social.php:31
+#: includes/admin/templates/metabox/metabox-social-opengraph.php:20
+#: includes/admin/templates/social/social-settings.php:29
+#: includes/admin/templates/social/social-sidenav.php:9
+#: includes/admin/templates/term/term-social-tab.php:36
+msgid "OpenGraph"
+msgstr "OpenGraph"
+
+#: includes/admin/templates/metabox/metabox-social-meta-tags-sub-settings.php:46
+#: includes/admin/templates/onpage/onpage-social-meta-tags-sub-settings.php:70
+msgid "Add image"
+msgstr "Додати зображення"
+
+#: includes/admin/templates/onpage/onpage-settings.php:162
+msgid "Date Archive"
+msgstr "Архів Дат"
+
+#: includes/admin/templates/advanced-tools/advanced-tools-redirect-item.php:35
+#: includes/assets/js/build/wds-admin-autolinks.js:1
+#: includes/assets/js/components/autolinks/custom-keyword-pairs.js:41
+#: includes/assets/js/components/redirects/redirect-item.js:37
+msgid "Edit"
+msgstr "Редагувати"
+
+#: includes/admin/settings/schema.php:117
+#: includes/admin/templates/dashboard/dashboard-widget-onpage.php:25
+#: includes/admin/templates/onpage/onpage-settings.php:41
+#: includes/admin/templates/onpage/onpage-settings.php:71
+#: includes/admin/templates/onpage/onpage-sidenav.php:8
+#: includes/admin/templates/schema/schema-section-general.php:143
+#: includes/core/class-wds-controller-hub-abstract.php:281
+#: includes/assets/js/build/wds-schema-types.js:1
+#: includes/assets/js/components/schema/schema-type-condition.js:165
+msgid "Homepage"
+msgstr "Домашня Сторінка"
+
+#: includes/admin/templates/dashboard/dashboard-widget-onpage.php:16
+#: includes/admin/templates/metabox/metabox-tab-social.php:5
+#: includes/admin/templates/term/term-social-tab.php:13
+#: includes/core/lighthouse/checks/class-wds-lighthouse-document-title-check.php:74
+#: includes/core/lighthouse/checks/class-wds-lighthouse-meta-description-check.php:84
+msgid "Titles & Meta"
+msgstr "Заголовки і Мета"
+
+#: includes/admin/templates/advanced-tools/advanced-section-moz.php:30
+#: includes/admin/templates/onpage/onpage-og-disabled.php:11
+#: includes/admin/templates/onpage/onpage-twitter-disabled.php:11
+#: includes/core/checks/class-wds-check-keywords-used.php:115
+#: includes/core/lighthouse/checks/class-wds-lighthouse-link-text-check.php:52
+msgid "here"
+msgstr "тут"
+
+#: includes/admin/templates/progress-notice.php:22
+msgid "your DEV account email"
+msgstr "email адреса вашого облікового запису DEV"
+
+#: includes/admin/templates/sitemap/sitemap-crawl-stats.php:66
+msgid "Invisible URLs"
+msgstr "Невидимі URL-адреси"
+
+#: includes/tools/sitemaps-dashboard-widget.php:76
+msgid "Done updating the sitemap, please hold on..."
+msgstr "Виконано оновлення мапи сайту, будь ласка, зачекайте..."
+
+#: includes/admin/templates/dismissable-notice.php:24
+#: includes/core/multisite/class-wds-sitewide-deprecation-controller.php:45
+#: includes/recommended-plugins-notice/notice.php:491
+msgid "Dismiss"
+msgstr "Відхилити"
+
+#: includes/core/service/class-wds-seo-service.php:201
+#: includes/core/service/class-wds-uptime-service.php:91
+msgid "Manage"
+msgstr "Керувати"
+
+#: includes/core/service/class-wds-seo-service.php:189
+#: includes/core/service/class-wds-uptime-service.php:77
+msgid "Unspecified error"
+msgstr "Невизначена помилка"
+
+#: includes/admin/templates/settings/settings-section-general.php:73
+msgid "Search engines"
+msgstr "Пошукові системи"
+
+#: includes/admin/templates/sitemap/sitemap-section-advanced.php:18
+msgid "Include image items with the sitemap"
+msgstr "Включити зображення з мапою сайту"
+
+#: includes/admin/templates/advanced-tools/advanced-tools-redirect-item.php:33
+msgid "Options"
+msgstr "Параметри"
+
+#: includes/admin/templates/onpage/onpage-settings.php:252
+#: includes/admin/templates/onpage/onpage-sidenav.php:30
+msgid "BuddyPress"
+msgstr "BuddyPress"
+
+#: includes/admin/templates/wp-dashboard/sitemaps-widget.php:40
+msgid "Not notified"
+msgstr "Не повідомлено"
+
+#: includes/admin/templates/wp-dashboard/sitemaps-widget.php:40
+msgid "Last notified on %1$s, at %2$s."
+msgstr "Останнє повідомлення %1$s, о %1$s."
+
+#: includes/tools/sitemaps-dashboard-widget.php:75
+msgid "Updating..."
+msgstr "Завантаження..."
+
+#: includes/admin/templates/wp-dashboard/sitemaps-widget.php:55
+msgid "Force search engines notification"
+msgstr "Примусове повідомлення пошукових систем"
+
+#: includes/admin/templates/wp-dashboard/sitemaps-widget.php:28
+msgid "Update sitemap now"
+msgstr "Оновити мапу сайту зараз"
+
+#: includes/tools/sitemaps-dashboard-widget.php:61
+msgid "Your sitemap hasn't been updated recently."
+msgstr "Ваша мапа сайту не оновлювалась останнім часом."
+
+#: includes/tools/sitemaps-dashboard-widget.php:60
+msgid "It was last updated on %1$s, at %2$s."
+msgstr "В останнє було оновлено %1$s, о %2$s."
+
+#: includes/admin/templates/advanced-tools/advanced-section-moz.php:48
+msgid "Secret Key"
+msgstr "Секретний Ключ"
+
+#: includes/admin/templates/advanced-tools/advanced-section-moz.php:36
+msgid "Access ID"
+msgstr "ID Доступу"
+
+#: includes/admin/templates/urlmetrics-metabox.php:59
+msgid "Page Authority"
+msgstr "Авторитет Сторінки"
+
+#: includes/admin/templates/seomoz-dashboard-widget.php:23
+#: includes/admin/templates/seomoz-dashboard-widget.php:68
+#: includes/admin/templates/urlmetrics-metabox.php:50
+msgid "Raw score:"
+msgstr "Попередній оцінка:"
+
+#: includes/admin/templates/seomoz-dashboard-widget.php:19
+#: includes/admin/templates/seomoz-dashboard-widget.php:64
+#: includes/admin/templates/urlmetrics-metabox.php:44
+msgid "10-point score:"
+msgstr "10-бальна оцінка:"
+
+#: includes/admin/templates/urlmetrics-metabox.php:40
+msgid "mozRank"
+msgstr "mozRank"
+
+#: includes/admin/templates/urlmetrics-metabox.php:28
+msgid "Links"
+msgstr "Посилання"
+
+#: includes/admin/templates/urlmetrics-metabox.php:16
+msgid "External Links"
+msgstr "Зовнішні Посилання"
+
+#: includes/admin/templates/seomoz-dashboard-widget.php:75
+msgid "Homepage Authority"
+msgstr "Авторитет Домашньої Сторінки"
+
+#: includes/admin/templates/seomoz-dashboard-widget.php:60
+msgid "Homepage mozRank"
+msgstr "mozRank Домашньої Сторінки"
+
+#: includes/admin/templates/seomoz-dashboard-widget.php:50
+msgid "Links to Homepage"
+msgstr "Посилання на Домашню Сторінку"
+
+#: includes/admin/templates/seomoz-dashboard-widget.php:40
+msgid "External Links to Homepage"
+msgstr "Зовнішні Посилання на Домашню Сторінку"
+
+#: includes/admin/templates/seomoz-dashboard-widget.php:30
+msgid "Domain Authority"
+msgstr "Авторитет Домену"
+
+#: includes/admin/templates/seomoz-dashboard-widget.php:15
+msgid "Domain mozRank"
+msgstr "mozRank Домену"
+
+#: includes/admin/templates/seomoz-dashboard-widget.php:9
+#: includes/admin/templates/seomoz-dashboard-widget.php:87
+#: includes/admin/templates/urlmetrics-metabox.php:9
+#: includes/admin/templates/urlmetrics-metabox.php:73
+#: includes/assets/js/build/wds-schema-types.js:1
+#: includes/assets/js/components/schema/schema-properties/book/book-edition.js:131
+#: includes/assets/js/components/schema/schema-properties/how-to/how-to-monetary-amount.js:8
+#: includes/assets/js/components/schema/schema-properties/job-posting/job-posting.js:208
+#: includes/assets/js/components/schema/schema-properties/job-posting/job-salary-monetary-amount.js:31
+#: includes/assets/js/components/schema/schema-type-properties-table.js:17
+msgid "Value"
+msgstr "Значення"
+
+#: includes/admin/templates/seomoz-dashboard-widget.php:8
+#: includes/admin/templates/seomoz-dashboard-widget.php:86
+#: includes/admin/templates/urlmetrics-metabox.php:8
+#: includes/admin/templates/urlmetrics-metabox.php:72
+msgid "Metric"
+msgstr "Показник"
+
+#: includes/admin/templates/onpage/onpage-settings.php:239
+msgid "BuddyPress Profile"
+msgstr "Обліковий Запис BuddyPress"
+
+#: includes/admin/templates/onpage/onpage-settings.php:227
+#: includes/admin/templates/sitemap/sitemap-buddypress-settings.php:8
+msgid "BuddyPress Groups"
+msgstr "Групи BuddyPress"
+
+#: includes/admin/templates/onpage/onpage-settings.php:184
+msgid "404 Page"
+msgstr "Сторінка 404"
+
+#: includes/admin/templates/onpage/onpage-settings.php:174
+#: includes/admin/templates/schema/schema-section-advanced.php:176
+msgid "Search Page"
+msgstr "Сторінка Пошуку"
+
+#: includes/admin/templates/onpage/onpage-settings.php:150
+msgid "Author Archive"
+msgstr "Архів Автора"
+
+#: includes/admin/templates/term/term-advanced-tab.php:69
+msgid "The canonical link is shown on the archive page for this term."
+msgstr "Канонічне посилання відображається на сторінці архіву для цієї таксономії."
+
+#: includes/admin/templates/metabox/metabox-advanced-canonical.php:8
+#: includes/admin/templates/term/term-advanced-tab.php:67
+msgid "Canonical"
+msgstr "Канонічний"
+
+#: includes/admin/templates/term/term-meta-edit-form.php:43
+msgid "The SEO description is used for the meta description on the archive page for this term."
+msgstr "Цей SEO опис використовується для мета опису на сторінці архіву для цього терміна."
+
+#: includes/admin/templates/term/term-meta-edit-form.php:30
+msgid "The SEO title is used on the archive page for this term."
+msgstr "Цей SEO заголовок використовується на сторінці архіву для цього терміна."
+
+#: includes/admin/templates/metabox/metabox-meta-edit-form.php:24
+#: includes/admin/templates/onpage/onpage-general-settings-inner.php:27
+#: includes/admin/templates/term/term-meta-edit-form.php:21
+#: includes/assets/js/build/wds-schema-types.js:1
+#: includes/assets/js/components/schema/schema-sources/text-full.js:36
+msgid "SEO Title"
+msgstr "SEO Заголовок"
+
+#: includes/admin/templates/metabox/metabox-advanced-sitemap-priority.php:10
+msgid "Sitemap Priority"
+msgstr "Пріоритет Мапи Сайту"
+
+#: includes/admin/templates/metabox/metabox-advanced-redirect.php:10
+msgid "301 Redirect"
+msgstr "301 Перенаправлення"
+
+#: includes/admin/templates/metabox/horizontal-tab-nav.php:20
+#: includes/admin/templates/schema/schema-settings.php:61
+#: includes/admin/templates/schema/schema-sidenav.php:13
+#: includes/admin/templates/settings/underscore-import-options.php:37
+#: includes/admin/templates/term/term-nav.php:13
+msgid "Advanced"
+msgstr "Розширений"
+
+#: includes/admin/settings/onpage.php:246
+#: includes/admin/templates/metabox/metabox-advanced-indexing.php:54
+#: includes/admin/templates/term/term-advanced-tab.php:57
+msgid "Follow"
+msgstr "Слідувати"
+
+#: includes/admin/settings/onpage.php:240
+#: includes/admin/templates/metabox/metabox-advanced-indexing.php:35
+#: includes/admin/templates/term/term-advanced-tab.php:36
+msgid "Index"
+msgstr "Індексувати"
+
+#: includes/admin/templates/onpage/onpage-section-settings.php:57
+#: includes/admin/templates/post-list/quick-edit-onpage.php:13
+msgid "Meta Description"
+msgstr "Мета Опис"
+
+#: includes/admin/templates/dashboard/dashboard-widget-sitemap.php:53
+#: includes/core/class-wds-settings.php:268
+msgid "XML Sitemap"
+msgstr "XML Мапа Сайту"
+
+#: includes/core/class-wds-settings.php:266
+msgid "Title & Meta Optimization"
+msgstr "Оптимізація Заголовку та Мета"
+
+#: includes/admin/templates/advanced-tools/advanced-robots-settings.php:107
+#: includes/admin/templates/checkup/checkup-reporting.php:76
+#: includes/admin/templates/health/health-test-mode.php:46
+#: includes/admin/templates/lighthouse/lighthouse-reporting.php:84
+#: includes/admin/templates/onpage/onpage-list-homepage.php:37
+#: includes/admin/templates/onpage/onpage-static-homepage.php:65
+#: includes/admin/templates/report-vertical-tab.php:12
+#: includes/admin/templates/sitemap/sitemap-settings.php:143
+#: includes/admin/templates/vertical-tab-upsell.php:11
+#: includes/admin/templates/vertical-tab.php:11
+#: includes/assets/js/build/wds-admin-sitemaps.js:1
+#: includes/assets/js/build/wds-schema-types.js:1
+#: includes/assets/js/components/schema/schema-types-box-footer.js:13
+#: includes/assets/js/components/sitemaps/news-sitemap-tab.js:135
+msgid "Save Settings"
+msgstr "Зберегти Налаштування"
+
+#: includes/admin/settings.php:223
+msgid " &amp; WP Super Cache flushed"
+msgstr "&amp; WP Super Cache очищено"
+
+#: includes/admin/settings.php:220
+msgid " &amp; W3 Total Cache Page Cache flushed"
+msgstr " &amp; W3 Total Cache Кеш Сторінок очичено"
+
+#: includes/admin/settings.php:216
+#: includes/admin/templates/floating-notices.php:11
+msgid "Settings updated"
+msgstr "Налаштування оновлно"
+
+#: includes/admin/templates/advanced-tools/advanced-section-automatic-linking.php:32
+msgid "Prevent duplicate links"
+msgstr "Запобігати повторним посиланням"
+
+#: includes/admin/templates/advanced-tools/advanced-section-automatic-linking.php:28
+msgid "Case sensitive matching"
+msgstr "Відповідність чутлива до регістру"
+
+#: includes/admin/templates/advanced-tools/advanced-section-automatic-linking.php:24
+msgid "Process RSS feeds"
+msgstr "Опрацювати RSS-канали"
+
+#: includes/admin/templates/advanced-tools/advanced-section-automatic-linking.php:20
+#: includes/admin/templates/advanced-tools/advanced-section-automatic-linking.php:21
+msgid "Process only single posts and pages"
+msgstr "Опрацювати лише записи та сторінки"
+
+#: includes/admin/templates/advanced-tools/advanced-section-automatic-linking-main.php:42
+msgid "Paste in the IDs, slugs or titles for the post/pages you wish to exclude and separate them by commas"
+msgstr "Вставте ID, слаґи або заголовки записів/сторінок які ви бажаєте виключити і розділіть їх комами."
+
+#: includes/admin/templates/advanced-tools/advanced-section-automatic-linking.php:16
+msgid "Prevent linking in heading tags"
+msgstr "Заборонити посилання в тегах заголовків"
+
+#: includes/admin/templates/advanced-tools/advanced-section-automatic-linking.php:12
+msgid "Allow autolinks to empty taxonomies"
+msgstr "Дозволити авто-посилання на пусті таксономії"
+
+#: includes/admin/templates/advanced-tools/advanced-side-nav.php:9
+msgid "Automatic Links"
+msgstr "Автоматичні Посилання"
+
+#: includes/admin/templates/dashboard/onboarding.php:5
+msgid "Welcome to SmartCrawl, the hottest SEO plugin for WordPress! Let's quickly set up the basics for you, then you can fine tune each setting as you go - our recommendations are on by default."
+msgstr "Ласкаво просимо до SmartCrawl, найгарячішого SEO-плагіна для WordPress! Давайте швиденько налаштуємо базові параметри, потім ви зможете точніше налаштувати кожну опцію - наші рекомендовані параметри ввімкнені по замовчуванню."
+
+#: includes/admin/templates/advanced-tools/advanced-section-automatic-linking.php:36
+msgid "Open links in new tab"
+msgstr "Відкривати посилання в новій вкладці"
+
+#: includes/admin/settings/settings.php:468
+msgid "auto-import"
+msgstr "автоматично імпортувати"
+
+#: includes/admin/settings/settings.php:450
+#: includes/admin/templates/settings/settings-section-import-export.php:33
+#: includes/core/class-wds-controller-assets.php:471
+msgid "All In One SEO"
+msgstr "All In One SEO"
+
+#: includes/admin/settings/settings.php:444
+#: includes/admin/templates/settings/settings-section-import-export.php:20
+msgid "Yoast SEO"
+msgstr "Yoast SEO"
+
+#: includes/admin/templates/metabox/analysis-readability.php:106
+#: includes/admin/templates/metabox/analysis-seo-analysis.php:26
+#: includes/core/class-wds-controller-assets.php:590
+msgid "Analyzing content, please wait a few moments"
+msgstr "Аналіз вмісту, будь ласка, зачекайте кілька хвилин"
+
+#: includes/admin/templates/onpage/underscore-macros-list.php:3
+msgid "Insert dynamic macro"
+msgstr "Вставити динамічний макрос"
+
+#: includes/admin/settings/social.php:150
+msgid "SmartCrawl Wizard: Social"
+msgstr "Майстер SmartCrawl: Соціальні Мережі"
+
+#: includes/admin/settings/settings.php:317
+#: includes/admin/settings/social.php:156
+#: includes/admin/templates/dashboard/dashboard-widget-social.php:22
+#: includes/admin/templates/metabox/horizontal-tab-nav.php:15
+#: includes/admin/templates/onpage/onpage-og-twitter.php:24
+#: includes/admin/templates/social/social-settings.php:8
+#: includes/admin/templates/term/term-nav.php:10
+#: includes/core/admin-page/class-wds-network-settings-page-controller.php:131
+#: includes/core/class-wds-settings.php:267
+#: includes/core/configs/class-wds-config-model.php:73
+#: includes/assets/js/build/wds-configs.js:1
+#: includes/assets/js/components/configs/config-item.js:154
+msgid "Social"
+msgstr "Соціальні Мережі"
+
+#: includes/admin/settings/onpage.php:255
+msgid "If you select this option, the first page will be left alone, but the indexing settings will be applied to subsequent pages."
+msgstr "Якщо ви оберете цей параметр, перша сторінка буде незмінна, але налаштування індексації будуть застосовані до усіх наступних сторінок."
+
+#: includes/admin/settings/onpage.php:254
+msgid "Apply to all pages except the first"
+msgstr "Застосувати до усіх сторінок, крім першої."
+
+#: includes/admin/settings/onpage.php:247
+msgid "Disabling following means search engines will not follow and crawl links it finds in this content."
+msgstr "Відключення цього означатиме, що пошукові системи не будуть слідувати і сканувати посилання, які вони знайдуть у цьому контенті."
+
+#: includes/admin/settings/onpage.php:241
+msgid "Disabling indexing means that this content will not be indexed and searchable in search engines."
+msgstr "Відключення індексації означає, що цей вміст не буде проіндексований і не буде доступний для пошуку у пошукових системах."
+
+#: includes/admin/settings/onpage.php:618
+msgid "BuddyPress user's full name"
+msgstr "Повне ім'я користувача BuddyPress"
+
+#: includes/admin/settings/onpage.php:617
+msgid "BuddyPress username"
+msgstr "Ім'я користувача BuddyPress"
+
+#: includes/admin/settings/onpage.php:626
+msgid "BuddyPress group name"
+msgstr "Назва групи BuddyPress"
+
+#: includes/admin/settings/onpage.php:599
+#: includes/admin/templates/onpage/onpage-section-settings.php:4
+msgid "Separator"
+msgstr "Розділювач"
+
+#: includes/admin/templates/checkup/checkup-settings-inner.php:19
+#: includes/admin/templates/checkup/checkup-side-nav.php:17
+#: includes/admin/templates/dashboard/dashboard-reports-free.php:29
+#: includes/admin/templates/dashboard/dashboard-reports-full.php:45
+#: includes/admin/templates/dashboard/dashboard-widget-seo-checkup.php:31
+msgid "SEO Checkup"
+msgstr "Перевірка SEO"
+
+#: includes/admin/settings/autolinks.php:266
+msgid "SmartCrawl Wizard: Advanced Tools"
+msgstr "Майстер SmartCrawl: Додаткові Інструменти"
+
+#: includes/admin/settings/autolinks.php:281
+#: includes/admin/settings/settings.php:319
+#: includes/admin/templates/advanced-tools/advanced-tools-settings.php:13
+#: includes/admin/templates/dashboard/dashboard-widget-advanced-tools.php:31
+#: includes/core/admin-page/class-wds-network-settings-page-controller.php:133
+#: includes/core/class-wds-settings.php:265
+#: includes/core/configs/class-wds-config-model.php:75
+#: includes/assets/js/build/wds-configs.js:1
+#: includes/assets/js/components/configs/config-item.js:156
+msgid "Advanced Tools"
+msgstr "Додаткові Інструменти"
+
+#: includes/admin/settings/sitemap.php:334
+msgid "SmartCrawl Wizard: Sitemap"
+msgstr "Майстер SmartCrawl: Мапа Сайту"
+
+#: includes/admin/templates/dashboard/dashboard-top-sitemap-list-item.php:13
+#: includes/core/configs/class-wds-config-model.php:74
+#: includes/assets/js/build/wds-configs.js:1
+#: includes/assets/js/components/configs/config-item.js:155
+msgid "Sitemap"
+msgstr "Мапа Сайту"
+
+#: includes/admin/settings/settings.php:141
+#: includes/admin/settings/settings.php:142
+#: includes/admin/settings/settings.php:143
+#: includes/admin/settings/settings.php:144
+msgid "%s (and up)"
+msgstr "%s (і більше)"
+
+#: includes/admin/settings/settings.php:219
+msgid "SmartCrawl Wizard: Settings"
+msgstr "Майстер SmartCrawl: Налаштування"
+
+#: includes/admin/settings/onpage.php:606
+msgid "Current page total, spelled out as numeral in English"
+msgstr "Загальна кількість сторінок, вказана цифрою англійською мовою"
+
+#: includes/admin/settings/onpage.php:605
+#: includes/admin/settings/onpage.php:607
+msgid "Current page number, spelled out as numeral in English"
+msgstr "Номер поточної сторінки, вказаний цифрою англійською мовою"
+
+#: includes/admin/settings/onpage.php:561
+msgid "Attachment caption"
+msgstr "Підпис додатку"
+
+#: includes/admin/settings/onpage.php:604
+msgid "Current page number"
+msgstr "Номер поточної сторінки"
+
+#: includes/admin/settings/onpage.php:603
+msgid "Current page total"
+msgstr "Загальна кількість сторінок"
+
+#: includes/admin/settings/onpage.php:602
+msgid "Current page number (i.e. page 2 of 4)"
+msgstr "Номер поточної сторінки (наприклад, сторінка 2 або 4)"
+
+#: includes/admin/settings/onpage.php:611
+msgid "Current year"
+msgstr "Поточній рік"
+
+#: includes/admin/settings/onpage.php:610
+msgid "Current month"
+msgstr "Поточний місяць"
+
+#: includes/admin/settings/onpage.php:609
+msgid "Current date"
+msgstr "Поточна дата"
+
+#: includes/admin/settings/onpage.php:608
+msgid "Current time"
+msgstr "Поточний час"
+
+#: includes/admin/settings/onpage.php:642
+msgid "Current search phrase"
+msgstr "Поточна пошукова фраза"
+
+#: includes/admin/settings/onpage.php:556
+msgid "Post/page author's userid"
+msgstr "userid автора запису/сторінки"
+
+#: includes/admin/settings/onpage.php:555
+msgid "Post/page author's 'nicename'"
+msgstr "Нікнейм автора запису/сторінки"
+
+#: includes/admin/settings/onpage.php:549
+msgid "Post/page ID"
+msgstr "ID запису/сторінки"
+
+#: includes/admin/settings/onpage.php:553
+msgid "Post/page modified time"
+msgstr "Час останньої зміни запису/сторінки"
+
+#: includes/admin/settings/onpage.php:580
+msgid "Term name"
+msgstr "Назва таксономії"
+
+#: includes/admin/settings/onpage.php:581
+msgid "Term description"
+msgstr "Опис таксономії"
+
+#: includes/admin/settings/onpage.php:591
+msgid "Tag description"
+msgstr "Опис тега"
+
+#: includes/admin/settings/onpage.php:586
+msgid "Category description"
+msgstr "Опис категорії"
+
+#: includes/admin/settings/onpage.php:565
+msgid "Post categories (comma separated)"
+msgstr "Категорії записів (розділені комами)"
+
+#: includes/admin/settings/onpage.php:566
+msgid "Current tag/tags"
+msgstr "Поточний тег/теги"
+
+#: includes/admin/settings/onpage.php:552
+msgid "Post/page excerpt (without auto-generation)"
+msgstr "Уривок запису/сторінки (без автоматичної генерації)"
+
+#: includes/admin/settings/onpage.php:551
+msgid "Post/page excerpt (or auto-generated if it does not exist)"
+msgstr "Уривок запису/сторінки (або згенерований автоматично, якщо його немає)"
+
+#: includes/admin/settings/onpage.php:601
+msgid "Site's tagline / description"
+msgstr "Тег / опис сайту"
+
+#: includes/admin/settings/onpage.php:600
+msgid "Site's name"
+msgstr "Назва сайту"
+
+#: includes/admin/settings/onpage.php:550
+msgid "Title of the post/page"
+msgstr "Заголовок запису/сторінки"
+
+#: includes/admin/settings/onpage.php:554
+msgid "Date of the post/page"
+msgstr "Дата запису/сторінки"
+
+#: includes/admin/settings/onpage.php:335
+msgid "SmartCrawl Wizard: Title & Meta"
+msgstr "Майстер SmartCrawl: Заголовок і Мета"
+
+#: includes/admin/settings/dashboard.php:35
+msgid "SmartCrawl Wizard: Dashboard"
+msgstr "Майстер SmartCrawl: Майстерня"
+
+#: includes/admin/admin.php:199 includes/admin/settings/dashboard.php:186
+#: includes/admin/templates/dashboard/dashboard.php:14
+msgid "Dashboard"
+msgstr "Майстерня"
+
+#: includes/admin/settings/autolinks.php:115
+msgid "Limit values must be numeric"
+msgstr "Граничні значення мають бути цифрами"
+
+#: includes/admin/metabox.php:474
+msgid "No YDIR"
+msgstr "Немає YDIR"
+
+#: includes/admin/metabox.php:473
+msgid "No ODP"
+msgstr "Немає ODP"
+
+#. Plugin Name of the plugin
+#: includes/admin/admin.php:198 includes/admin/metabox.php:606
+#: includes/admin/settings/dashboard.php:182
+#: includes/admin/templates/post-list/quick-edit-seo-analysis.php:3
+#: includes/admin/templates/term/term-form.php:31
+msgid "SmartCrawl"
+msgstr "SmartCrawl"
+
+#: includes/admin/settings/settings.php:296
+#: includes/admin/settings/sitemap.php:431
+msgid "Home page"
+msgstr "Домашня сторінка"
+
+#: includes/admin/settings/settings.php:295
+#: includes/admin/settings/sitemap.php:430
+msgid "All pages"
+msgstr "Всі сторінки"
+
+#: includes/admin/settings/onpage.php:496
+msgid "Bing"
+msgstr "Bing"
+
+#: includes/admin/settings/onpage.php:495
+msgid "Google"
+msgstr "Google"
+
+#: includes/admin/settings/onpage.php:627
+msgid "BuddyPress group description"
+msgstr "Опис групи BuddyPress"
+
+#: includes/admin/class-wds-sitemap-ui.php:65
+msgid "Lowest priority"
+msgstr "Найнижчий пріоритет"
+
+#: includes/admin/class-wds-sitemap-ui.php:61
+msgid "Medium priority"
+msgstr "Середній пріоритет"
+
+#: includes/admin/class-wds-sitemap-ui.php:60
+msgid "Secondary priority (subpages default)"
+msgstr "Вторинний пріоритет (підсторінки за замовчуванням)"
+
+#: includes/admin/class-wds-sitemap-ui.php:58
+msgid "High priority (root pages default)"
+msgstr "Високий пріоритет (кореневі сторінки за замовчуванням)"
+
+#: includes/admin/class-wds-sitemap-ui.php:56
+msgid "1 - Highest priority"
+msgstr "1 - Найвищий пріоритет"
+
+#: includes/admin/class-wds-sitemap-ui.php:55
+msgid "Automatic prioritization"
+msgstr "Автоматичне визначення пріоритетів"
+
+#: includes/admin/metabox.php:476
+msgid "No Snippet"
+msgstr "Без Сніпету "
+
+#: includes/admin/metabox.php:475
+msgid "No Archive"
+msgstr "Без Архів"
+
+#: includes/admin/metabox.php:444
+msgid "Robots Meta"
+msgstr "Robots Мета"
+
+#: includes/admin/templates/post-list/quick-edit-onpage.php:5
+msgid "Title Tag"
+msgstr "Тег Заголовку"
+
+#: includes/core/class-wds-controller-assets.php:525
+msgid "Over {MAX_COUNT} characters ({CURRENT_COUNT}) - make sure your SEO title is shorter"
+msgstr "Понад {MAX_COUNT} символів ({CURRENT_COUNT}), переконайтесь що ваш SEO-заголовок коротший"
+
+#: includes/core/class-wds-controller-assets.php:524
+msgid "Over {MAX_COUNT} characters ({CURRENT_COUNT})"
+msgstr "Понад {MAX_COUNT} символів ({CURRENT_COUNT})"
+
+#: includes/core/class-wds-controller-assets.php:523
+msgid "{TOTAL_LEFT} characters left"
+msgstr "{TOTAL_LEFT} символів залишилось"
+
+#: includes/admin/settings/settings.php:144
+#: includes/assets/js/build/wds-schema-types.js:1
+#: includes/assets/js/components/schema/schema-properties/book/book.js:54
+msgid "Contributor"
+msgstr "Помічник"
+
+#: includes/admin/settings/settings.php:142
+#: includes/assets/js/build/wds-schema-types.js:1
+#: includes/assets/js/components/schema/schema-properties/book/book.js:83
+msgid "Editor"
+msgstr "Редактор"
+
+#: includes/admin/settings/settings.php:141
+msgid "Site Admin"
+msgstr "Адміністратор Сайту"
+
+#: includes/admin/settings/settings.php:140
+msgid "Super Admin"
+msgstr "Супер Адміністратор"
+
+#: includes/admin/settings/onpage.php:490
+#: includes/assets/js/build/wds-admin-sitemaps.js:1
+#: includes/assets/js/components/crawler/crawl-item-group.js:153
+msgid "No"
+msgstr "Ні"
+
+#: includes/admin/settings/onpage.php:491
+#: includes/admin/settings/sitemap.php:266
+#: includes/admin/settings/sitemap.php:427
+msgid "Yes"
+msgstr "Так"
+
+#: includes/admin/templates/advanced-tools/advanced-side-nav.php:17
+#: includes/admin/templates/advanced-tools/advanced-tools-settings.php:130
+msgid "Moz"
+msgstr "Moz"
+
+#: includes/admin/settings/onpage.php:344
+#: includes/admin/settings/settings.php:313
+#: includes/admin/templates/onpage/onpage-settings.php:14
+#: includes/core/admin-page/class-wds-network-settings-page-controller.php:129
+#: includes/core/configs/class-wds-config-model.php:71
+#: includes/assets/js/build/wds-configs.js:1
+#: includes/assets/js/components/configs/config-item.js:152
+msgid "Title & Meta"
+msgstr "Заголовок і Мета"
+
+#: includes/admin/settings/settings.php:143
+#: includes/admin/templates/schema/schema-section-advanced.php:124
+#: includes/assets/js/build/wds-schema-types.js:1
+#: includes/assets/js/components/schema/schema-properties/article/article.js:103
+#: includes/assets/js/components/schema/schema-properties/book/book-edition.js:145
+#: includes/assets/js/components/schema/schema-properties/book/book.js:40
+#: includes/assets/js/components/schema/schema-properties/local-business/local-review.js:47
+#: includes/assets/js/components/schema/schema-properties/local-business/local-review.js:52
+#: includes/assets/js/components/schema/schema-properties/product/product-review.js:44
+#: includes/assets/js/components/schema/schema-properties/product/product-review.js:50
+#: includes/assets/js/components/schema/schema-properties/recipe/recipe.js:190
+#: includes/assets/js/components/schema/schema-properties/recipe/recipe.js:195
+#: includes/assets/js/components/schema/schema-properties/review/review.js:47
+#: includes/assets/js/components/schema/schema-properties/review/review.js:53
+#: includes/assets/js/components/schema/schema-properties/software-application/software-review.js:47
+#: includes/assets/js/components/schema/schema-properties/software-application/software-review.js:53
+#: includes/assets/js/components/schema/schema-properties/web-page/web-page.js:120
+msgid "Author"
+msgstr "Автор"
+
+#: includes/admin/settings/settings.php:318
+#: includes/admin/settings/sitemap.php:343
+#: includes/admin/templates/dashboard/dashboard-widget-sitemap.php:38
+#: includes/admin/templates/dashboard/onboard-modal-body.php:43
+#: includes/admin/templates/sitemap/sitemap-settings.php:21
+#: includes/core/admin-page/class-wds-network-settings-page-controller.php:132
+msgid "Sitemaps"
+msgstr "Мапи Сайту"
+
+#: includes/admin/settings/settings.php:236
+#: includes/admin/templates/advanced-tools/advanced-tools-settings.php:114
+#: includes/admin/templates/checkup/checkup-side-nav.php:28
+#: includes/admin/templates/health/health-section-settings.php:8
+#: includes/admin/templates/lighthouse/lighthouse-side-nav.php:32
+#: includes/admin/templates/onpage/onpage-settings.php:262
+#: includes/admin/templates/onpage/onpage-sidenav.php:24
+#: includes/admin/templates/schema/schema-settings.php:94
+#: includes/admin/templates/schema/schema-sidenav.php:21
+#: includes/admin/templates/settings/settings-section-data.php:18
+#: includes/admin/templates/sitemap/sitemap-settings.php:71
+#: includes/admin/templates/sitemap/sitemap-side-nav.php:44
+#: includes/core/admin-page/class-wds-network-settings-page-controller.php:134
+#: includes/core/class-wds-controller-plugin-links.php:41
+#: includes/core/configs/class-wds-config-model.php:76
+#: includes/assets/js/build/wds-configs.js:1
+#: includes/assets/js/components/configs/config-item.js:157
+msgid "Settings"
+msgstr "Налаштування"
+
+#: includes/admin/settings/autolinks.php:562
+#: includes/assets/js/build/wds-schema-types.js:1
+#: includes/assets/js/components/schema/schema-properties/article/article.js:119
+#: includes/assets/js/components/schema/schema-properties/faq-page/faq-page.js:27
+#: includes/assets/js/components/schema/schema-properties/how-to/how-to.js:181
+msgid "Comments"
+msgstr "Коментарі"
+
+#: includes/admin/settings/settings.php:471
+msgid "We've detected you have %1$s settings. Do you want to %2$s your configuration into SmartCrawl?"
+msgstr "Ми виявили що у вас є налаштування %1$s. Чи бажаєте ви %2$s свої налаштування в SmartCrawl?"

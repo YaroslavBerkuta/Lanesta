@@ -1,0 +1,237 @@
+2021-11-17T09:56:33+00:00 CRITICAL syntax error, unexpected end of file у C:\MAMP\htdocs\wp-content\themes\lanesta\functions.php доступно 211
+
+2021-11-17T09:56:33+00:00 CRITICAL syntax error, unexpected end of file у C:\MAMP\htdocs\wp-content\themes\lanesta\functions.php доступно 211
+
+2021-11-17T09:56:42+00:00 CRITICAL Uncaught Error: Call to undefined function get_categories_product() in C:\MAMP\htdocs\wp-content\themes\lanesta\page-template\page-home.php:61
+Stack trace:
+#0 C:\MAMP\htdocs\wp-includes\template-loader.php(106): include()
+#1 C:\MAMP\htdocs\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown у C:\MAMP\htdocs\wp-content\themes\lanesta\page-template\page-home.php доступно 61
+
+2021-11-17T10:04:21+00:00 CRITICAL syntax error, unexpected '<', expecting end of file у C:\MAMP\htdocs\wp-content\themes\lanesta\functions.php доступно 198
+
+2021-11-17T10:27:35+00:00 CRITICAL syntax error, unexpected ';' у C:\MAMP\htdocs\wp-content\themes\lanesta\page-template\page-home.php доступно 29
+
+2021-11-17T10:28:40+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\MAMP\htdocs\wp-content\themes\lanesta\page-template\page-home.php:30
+Stack trace:
+#0 C:\MAMP\htdocs\wp-includes\template-loader.php(106): include()
+#1 C:\MAMP\htdocs\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown у C:\MAMP\htdocs\wp-content\themes\lanesta\page-template\page-home.php доступно 30
+
+2021-11-17T10:29:22+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\MAMP\htdocs\wp-content\themes\lanesta\page-template\page-home.php:30
+Stack trace:
+#0 C:\MAMP\htdocs\wp-includes\template-loader.php(106): include()
+#1 C:\MAMP\htdocs\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown у C:\MAMP\htdocs\wp-content\themes\lanesta\page-template\page-home.php доступно 30
+
+2021-11-17T10:29:29+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\MAMP\htdocs\wp-content\themes\lanesta\page-template\page-home.php:30
+Stack trace:
+#0 C:\MAMP\htdocs\wp-includes\template-loader.php(106): include()
+#1 C:\MAMP\htdocs\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown у C:\MAMP\htdocs\wp-content\themes\lanesta\page-template\page-home.php доступно 30
+
+2021-11-17T10:30:53+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\MAMP\htdocs\wp-content\themes\lanesta\page-template\page-home.php:30
+Stack trace:
+#0 C:\MAMP\htdocs\wp-includes\template-loader.php(106): include()
+#1 C:\MAMP\htdocs\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown у C:\MAMP\htdocs\wp-content\themes\lanesta\page-template\page-home.php доступно 30
+
+2021-11-17T10:31:02+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\MAMP\htdocs\wp-content\themes\lanesta\page-template\page-home.php:30
+Stack trace:
+#0 C:\MAMP\htdocs\wp-includes\template-loader.php(106): include()
+#1 C:\MAMP\htdocs\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown у C:\MAMP\htdocs\wp-content\themes\lanesta\page-template\page-home.php доступно 30
+
+2021-11-17T10:32:10+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in C:\MAMP\htdocs\wp-content\themes\lanesta\page-template\page-home.php:29
+Stack trace:
+#0 C:\MAMP\htdocs\wp-includes\template-loader.php(106): include()
+#1 C:\MAMP\htdocs\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown у C:\MAMP\htdocs\wp-content\themes\lanesta\page-template\page-home.php доступно 29
+
+2021-11-17T10:34:15+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\MAMP\htdocs\wp-content\themes\lanesta\page-template\page-home.php:30
+Stack trace:
+#0 C:\MAMP\htdocs\wp-includes\template-loader.php(106): include()
+#1 C:\MAMP\htdocs\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown у C:\MAMP\htdocs\wp-content\themes\lanesta\page-template\page-home.php доступно 30
+
+2021-11-17T10:34:36+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\MAMP\htdocs\wp-content\themes\lanesta\page-template\page-home.php:30
+Stack trace:
+#0 C:\MAMP\htdocs\wp-includes\template-loader.php(106): include()
+#1 C:\MAMP\htdocs\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown у C:\MAMP\htdocs\wp-content\themes\lanesta\page-template\page-home.php доступно 30
+
+2021-11-17T10:34:37+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\MAMP\htdocs\wp-content\themes\lanesta\page-template\page-home.php:30
+Stack trace:
+#0 C:\MAMP\htdocs\wp-includes\template-loader.php(106): include()
+#1 C:\MAMP\htdocs\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown у C:\MAMP\htdocs\wp-content\themes\lanesta\page-template\page-home.php доступно 30
+
+2021-11-17T10:35:36+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\MAMP\htdocs\wp-content\themes\lanesta\page-template\page-home.php:30
+Stack trace:
+#0 C:\MAMP\htdocs\wp-includes\template-loader.php(106): include()
+#1 C:\MAMP\htdocs\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown у C:\MAMP\htdocs\wp-content\themes\lanesta\page-template\page-home.php доступно 30
+
+2021-11-17T10:39:38+00:00 CRITICAL Uncaught Error: Call to undefined function get_product_thumbnail() in C:\MAMP\htdocs\wp-content\themes\lanesta\page-template\page-home.php:31
+Stack trace:
+#0 C:\MAMP\htdocs\wp-includes\template-loader.php(106): include()
+#1 C:\MAMP\htdocs\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown у C:\MAMP\htdocs\wp-content\themes\lanesta\page-template\page-home.php доступно 31
+
+2021-11-17T10:41:10+00:00 CRITICAL syntax error, unexpected 'get_woocommerce_term_meta' (T_STRING), expecting ';' or ',' у C:\MAMP\htdocs\wp-content\themes\lanesta\page-template\page-home.php доступно 31
+
+2021-11-17T10:49:06+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\MAMP\htdocs\wp-content\themes\lanesta\page-template\page-home.php:34
+Stack trace:
+#0 C:\MAMP\htdocs\wp-includes\template-loader.php(106): include()
+#1 C:\MAMP\htdocs\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown у C:\MAMP\htdocs\wp-content\themes\lanesta\page-template\page-home.php доступно 34
+
+2021-11-17T10:49:09+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\MAMP\htdocs\wp-content\themes\lanesta\page-template\page-home.php:34
+Stack trace:
+#0 C:\MAMP\htdocs\wp-includes\template-loader.php(106): include()
+#1 C:\MAMP\htdocs\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown у C:\MAMP\htdocs\wp-content\themes\lanesta\page-template\page-home.php доступно 34
+
+2021-11-17T10:49:11+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\MAMP\htdocs\wp-content\themes\lanesta\page-template\page-home.php:34
+Stack trace:
+#0 C:\MAMP\htdocs\wp-includes\template-loader.php(106): include()
+#1 C:\MAMP\htdocs\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown у C:\MAMP\htdocs\wp-content\themes\lanesta\page-template\page-home.php доступно 34
+
+2021-11-17T10:50:14+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\MAMP\htdocs\wp-content\themes\lanesta\page-template\page-home.php:34
+Stack trace:
+#0 C:\MAMP\htdocs\wp-includes\template-loader.php(106): include()
+#1 C:\MAMP\htdocs\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown у C:\MAMP\htdocs\wp-content\themes\lanesta\page-template\page-home.php доступно 34
+
+2021-11-17T11:07:03+00:00 CRITICAL Cannot redeclare get_previous_post() (previously declared in C:\MAMP\htdocs\wp-includes\link-template.php:1745) у C:\MAMP\htdocs\wp-content\themes\lanesta\functions.php доступно 157
+
+2021-11-17T11:07:03+00:00 CRITICAL Cannot redeclare get_previous_post() (previously declared in C:\MAMP\htdocs\wp-includes\link-template.php:1745) у C:\MAMP\htdocs\wp-content\themes\lanesta\functions.php доступно 157
+
+2021-11-17T11:07:16+00:00 CRITICAL Cannot redeclare get_previous_post() (previously declared in C:\MAMP\htdocs\wp-includes\link-template.php:1745) у C:\MAMP\htdocs\wp-content\themes\lanesta\functions.php доступно 157
+
+2021-11-17T11:07:17+00:00 CRITICAL Cannot redeclare get_previous_post() (previously declared in C:\MAMP\htdocs\wp-includes\link-template.php:1745) у C:\MAMP\htdocs\wp-content\themes\lanesta\functions.php доступно 157
+
+2021-11-17T11:07:17+00:00 CRITICAL Cannot redeclare get_previous_post() (previously declared in C:\MAMP\htdocs\wp-includes\link-template.php:1745) у C:\MAMP\htdocs\wp-content\themes\lanesta\functions.php доступно 157
+
+2021-11-17T11:07:18+00:00 CRITICAL Cannot redeclare get_previous_post() (previously declared in C:\MAMP\htdocs\wp-includes\link-template.php:1745) у C:\MAMP\htdocs\wp-content\themes\lanesta\functions.php доступно 157
+
+2021-11-17T11:07:18+00:00 CRITICAL Cannot redeclare get_previous_post() (previously declared in C:\MAMP\htdocs\wp-includes\link-template.php:1745) у C:\MAMP\htdocs\wp-content\themes\lanesta\functions.php доступно 157
+
+2021-11-17T11:07:18+00:00 CRITICAL Cannot redeclare get_previous_post() (previously declared in C:\MAMP\htdocs\wp-includes\link-template.php:1745) у C:\MAMP\htdocs\wp-content\themes\lanesta\functions.php доступно 157
+
+2021-11-17T11:11:31+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in C:\MAMP\htdocs\wp-includes\formatting.php:1098
+Stack trace:
+#0 C:\MAMP\htdocs\wp-includes\formatting.php(4479): wp_check_invalid_utf8(Object(WP_Post))
+#1 C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\single-product.php(25): esc_html(Object(WP_Post))
+#2 C:\MAMP\htdocs\wp-includes\template-loader.php(106): include('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#5 {main}
+  thrown у C:\MAMP\htdocs\wp-includes\formatting.php доступно 1098
+
+2021-11-17T11:11:33+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in C:\MAMP\htdocs\wp-includes\formatting.php:1098
+Stack trace:
+#0 C:\MAMP\htdocs\wp-includes\formatting.php(4479): wp_check_invalid_utf8(Object(WP_Post))
+#1 C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\single-product.php(25): esc_html(Object(WP_Post))
+#2 C:\MAMP\htdocs\wp-includes\template-loader.php(106): include('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#5 {main}
+  thrown у C:\MAMP\htdocs\wp-includes\formatting.php доступно 1098
+
+2021-11-17T11:11:34+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in C:\MAMP\htdocs\wp-includes\formatting.php:1098
+Stack trace:
+#0 C:\MAMP\htdocs\wp-includes\formatting.php(4479): wp_check_invalid_utf8(Object(WP_Post))
+#1 C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\single-product.php(25): esc_html(Object(WP_Post))
+#2 C:\MAMP\htdocs\wp-includes\template-loader.php(106): include('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#5 {main}
+  thrown у C:\MAMP\htdocs\wp-includes\formatting.php доступно 1098
+
+2021-11-17T11:11:53+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in C:\MAMP\htdocs\wp-includes\formatting.php:1098
+Stack trace:
+#0 C:\MAMP\htdocs\wp-includes\formatting.php(4479): wp_check_invalid_utf8(Object(WP_Post))
+#1 C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\single-product.php(25): esc_html(Object(WP_Post))
+#2 C:\MAMP\htdocs\wp-includes\template-loader.php(106): include('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#5 {main}
+  thrown у C:\MAMP\htdocs\wp-includes\formatting.php доступно 1098
+
+2021-11-17T11:19:50+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_the_terms(), 1 passed in C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\single-product.php on line 26 and exactly 2 expected in C:\MAMP\htdocs\wp-includes\category-template.php:1274
+Stack trace:
+#0 C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\single-product.php(26): get_the_terms(163)
+#1 C:\MAMP\htdocs\wp-includes\template-loader.php(106): include('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#3 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#4 {main}
+  thrown у C:\MAMP\htdocs\wp-includes\category-template.php доступно 1274
+
+2021-11-17T14:02:56+00:00 CRITICAL syntax error, unexpected end of file у C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\archive-product.php доступно 71
+
+2021-11-17T14:13:01+00:00 CRITICAL syntax error, unexpected '}', expecting end of file у C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\archive-product.php доступно 63
+
+2021-11-17T15:04:23+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting end of file у C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\content-product.php доступно 58
+
+2021-11-17T15:06:23+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) у C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\content-product.php доступно 59
+
+2021-11-17T15:09:56+00:00 CRITICAL Uncaught Error: Object of class WP_Query could not be converted to string in C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\content-product.php:35
+Stack trace:
+#0 C:\MAMP\htdocs\wp-includes\template.php(772): require()
+#1 C:\MAMP\htdocs\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\MAMP\\htdocs/...', false)
+#2 C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\archive-product.php(46): wc_get_template_part('content', 'product')
+#3 C:\MAMP\htdocs\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#5 C:\MAMP\htdocs\wp-includes\template-loader.php(106): include('C:\\MAMP\\htdocs\\...')
+#6 C:\MAMP\htdocs\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#7 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#8 {main}
+  thrown у C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\content-product.php доступно 35
+
+2021-11-17T15:10:35+00:00 CRITICAL Uncaught Error: Object of class WP_Query could not be converted to string in C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\content-product.php:44
+Stack trace:
+#0 C:\MAMP\htdocs\wp-includes\template.php(772): require()
+#1 C:\MAMP\htdocs\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\MAMP\\htdocs/...', false)
+#2 C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\archive-product.php(46): wc_get_template_part('content', 'product')
+#3 C:\MAMP\htdocs\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\MAMP\\htdocs\\...')
+#4 C:\MAMP\htdocs\wp-content\plugins\woocommerce\templates\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#5 C:\MAMP\htdocs\wp-includes\template-loader.php(106): include('C:\\MAMP\\htdocs\\...')
+#6 C:\MAMP\htdocs\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#7 C:\MAMP\htdocs\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#8 {main}
+  thrown у C:\MAMP\htdocs\wp-content\themes\lanesta\woocommerce\content-product.php доступно 44
+

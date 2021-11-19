@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>4046FF0B-E9A1-4DB9-86E4-38DDDAF3822A@3x</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="30" height="30"></rect>
+    </defs>
+    <g id="SEO-Health" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SEO-Health-/-Checkup---Try-Lighthouse" transform="translate(-219.000000, -89.000000)">
+            <g id="LH" transform="translate(219.000000, 89.000000)">
+                <circle id="Oval" fill="#17A8E3" cx="25" cy="25" r="25"></circle>
+                <g id="graph-icon-lighthouse" transform="translate(10.000000, 10.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Rectangle"></g>
+                    <polygon id="Path-7" fill="#FFFFFF" mask="url(#mask-2)" points="6 30 8.01710807 15 6 15 6 11.25 8.01710807 11.25 8.01710807 4.44812787 15.5493235 0 23.0529785 4.44812787 23.0529785 11.25 25 11.25 25 15 23.0529785 15 25 30 21.1032715 30 20 26.0107422 11.0397949 26.0107422 9.98828125 30"></polygon>
+                    <polygon id="Path-9" fill="#17A8E3" mask="url(#mask-2)" points="11.1513672 22 12 15 18.9143546 15 19.7458496 22"></polygon>
+                    <polygon id="Path-10" fill="#17A8E3" mask="url(#mask-2)" points="12 11 12 6.14008325 15.4628815 4 19 6.14008325 19 11"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
