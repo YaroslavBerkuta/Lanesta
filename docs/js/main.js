@@ -27,7 +27,7 @@ function blogSlider() {
   });
 }
 
-const swiper = new Swiper(".model__slider", {
+const modelSwiper = new Swiper(".model__slider", {
   wrapperClass: "model__wrapper",
   slideClass: "model__img",
   slidesPerView: "auto",
@@ -39,7 +39,12 @@ const videoSlider = new Swiper(".video__slider", {
   slidesPerView: "auto",
   spaceBetween: 30,
 });
-
+const relateSwiper = new Swiper(".relate__flex", {
+  wrapperClass: "relate__wrapper",
+  slideClass: "relate__block",
+  slidesPerView: "auto",
+  loop: true,
+});
 var map = document.getElementById("map");
 
 const bigImg = document.querySelector(".model__big img");
@@ -100,7 +105,7 @@ function initMap() {
   });
 }
 
-const video = document.querySelectorAll(".video__slide");
+const video = document.querySelectorAll(".video__slide .video__container");
 const playVideo = document.querySelectorAll(".video__slide button");
 
 video.forEach((item) => {
@@ -119,3 +124,30 @@ if (window.innerWidth <= 768) {
   const modelLeft = document.querySelector(".model__left");
   modelLeft.insertBefore(modelNav, modelLeft.firstChild);
 }
+
+(function () {
+  "use strict";
+
+  const downArrow = document.getElementById("arowDown");
+
+  function scrollDown() {
+    var windowCoords = document.documentElement.clientHeight;
+    (function scroll() {
+      if (window.pageYOffset < windowCoords) {
+        window.scrollBy(0, 10);
+        setTimeout(scroll, 0);
+      }
+      if (window.pageYOffset > windowCoords) {
+        window.scrollTo(0, windowCoords);
+      }
+    })();
+  }
+
+  downArrow.addEventListener("click", scrollDown);
+})();
+
+$(".round").click(function (e) {
+  e.preventDefault();
+  e.stopPropagation();
+  $(".arrow").toggleClass("bounceAlpha");
+});
